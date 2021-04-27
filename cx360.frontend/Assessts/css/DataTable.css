@@ -1,0 +1,108 @@
+﻿/*@import url('//cdn.datatables.net/1.10.2/css/jquery.dataTables.css');*/
+
+.childtable_hidden {
+    display: none;
+}
+
+/*.childtable thead {*/
+/*display: none;*/
+/*//border-collapse: collapse;
+    //padding: 0;
+    //cellspacing: 0;*/
+/*}*/
+
+/*.childtable.dataTable tbody th, .childtable.dataTable tbody td {*/
+/*//padding: 0;
+    //cellspacing: 0;*/
+/*}*/
+
+
+
+td.details-control {
+    background: url('http://www.datatables.net/examples/resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+
+tr.shown td.details-control {
+    background: url('http://www.datatables.net/examples/resources/details_close.png') no-repeat center center;
+}
+
+/*table.dataTable tbody td.nestedtable {
+    width: 100%;*/
+/*background: green;*/
+/*padding: 0;
+    cellspacing: 0;
+}*/
+
+/*table.dataTable tbody td.nestedtable tr.odd td {*/
+/*background: red;*/
+/*//padding: 0;
+        //cellspacing: 0;*/
+/*}*/
+
+/*table.dataTable tbody td.nestedtable tr.even td {*/
+/*background: blue;*/
+/*//padding: 0;
+        //cellspacing: 0;*/
+/*}*/
+
+table.dataTable tbody td.nestedtable tr.even td.details-control {
+    background: url('http://www.datatables.net/examples/resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+
+table.dataTable tbody td.nestedtable tr.odd td.details-control {
+    background: url('http://www.datatables.net/examples/resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+
+
+/*.nestedtable table {
+    width: 100%;*/
+/*background: blue;*/
+/*padding: 0;
+    cellspacing: 0;
+}*/
+
+table.dataTable tbody td.nestedtable td.details-control {
+    background: url('http://www.datatables.net/examples/resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+
+table.dataTable tbody td.nestedtable tr.shown td.details-control {
+    background: url('http://www.datatables.net/examples/resources/details_close.png') no-repeat center center;
+}
+
+table.dataTable tbody {
+    text-align: center;
+}
+
+table.dataTable {
+    text-align: center;
+}
+
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    zoom: 1;
+    zoom: 1;
+    padding: 16px 26px 0px;
+}
+
+table.dataTable.no-footer {
+    border: 1px solid;
+}
+
+table.dataTable.nowrap th, table.dataTable.nowrap td {
+    white-space: nowrap;
+    border: 1px solid;
+}
+
+.childtable > thead {
+    background: cadetblue;
+}
+
+thead {
+    /* background: cadetblue; */
+    background-color: #1173E429;
+}

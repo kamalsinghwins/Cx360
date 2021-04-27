@@ -1,0 +1,60 @@
+﻿{
+  "data": [
+    {
+      "IncidentManagementId": "1",
+      "IncidentDate": "2020/04/25",
+      "IncidentType": "Injury",
+      "Department": " ",
+      "CreatedBy": "admin",
+      "CreatedDate": "2020/04/25"
+    },
+    {
+      "IncidentManagementId": "2",
+      "IncidentDate": "2020/04/25",
+      "IncidentType": "Medication Error",
+      "Department": " ",
+      "CreatedBy": "admin",
+      "CreatedDate": "2020/04/25"
+    },
+    {
+      "IncidentManagementId": "3",
+      "IncidentDate": "2020/04/25",
+      "IncidentType": "Death",
+      "Department": " ",
+      "CreatedBy": "admin",
+      "CreatedDate": "2020/04/25"
+    },
+    {
+      "IncidentManagementId": "4",
+      "IncidentDate": "2020/04/25",
+      "IncidentType": "Others",
+      "Department": " ",
+      "CreatedBy": "admin",
+      "CreatedDate": "2020/04/25"
+    },
+    {
+      "IncidentManagementId": "1",
+      "IncidentDate": "2020/04/25",
+      "IncidentType": "Others",
+      "Department": " ",
+      "CreatedBy": "admin",
+      "CreatedDate": "2020/04/25"
+    },
+    {
+      "IncidentManagementId": "5",
+      "IncidentDate": "2020/04/25",
+      "IncidentType": "Medication Error",
+      "Department": " ",
+      "CreatedBy": "admin",
+      "CreatedDate": "2020/04/25"
+    },
+    {
+      "IncidentManagementId": "1",
+      "IncidentDate": "2020/04/25",
+      "IncidentType": "Death",
+      "Department": " ",
+      "CreatedBy": "admin",
+      "CreatedDate": "2020/04/25"
+    }
+  ]
+}

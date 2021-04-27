@@ -1,0 +1,776 @@
+/* base config */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, p, td, th, div {
+    /*font-family: Trebuchet MS, Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;	
+    font-size: 11px;
+    margin:0;
+    padding:0;
+    color: #0A0A0A;*/
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    /* font-size: 11pt; */
+    letter-spacing: 0.02em;
+    line-height: 14pt;
+    font-smooth: always;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-spacing: 0px;
+    border: none;
+}
+
+div {
+    display: block;
+}
+
+img {
+    border: none;
+}
+
+/**/
+
+/* load fonts */
+@font-face {
+    font-family: 'Conv_segoeuil';
+    src: url('fonts/segoeuil.eot');
+    src: local('�?�'), url('fonts/segoeuil.ttf') format('truetype'), url('fonts/segoeuil.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/**/
+input {
+    font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    padding: 2px 0 2px 0;
+}
+
+textarea {
+    font-family: Verdana, "Courier New", Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+}
+
+
+/*setting to all page */
+#main {
+    width: 1174px;
+    background: #fff;
+    margin: auto;
+    padding-top: 10px;
+}
+
+/* title */
+.IndexTitle {
+    float: left;
+    background: url('images/logo.png') no-repeat;
+    padding-left: 60px;
+    color: #3A94D4;
+    font: bold 25px Trebuchet MS, Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+    /* sub-title*/
+    .IndexTitle div {
+        font-weight: bold;
+        color: #3a94d4;
+    }
+
+/* header */
+.header {
+    display: block;
+    height: 70px;
+}
+
+/* buttons in header */
+.headerButtons {
+    display: inline-block;
+    padding-top: 2px;
+    padding-left: 328px;
+}
+
+/* clear button in header */
+.clearButton {
+    background: url('images/clearButton.png') no-repeat;
+    border: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    color: #fff;
+    width: 135px;
+    height: 32px;
+    cursor: pointer;
+}
+
+/* save button in header */
+.saveButton {
+    background: url('images/saveButton.png') no-repeat;
+    border: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    color: #fff;
+    width: 135px;
+    height: 32px;
+    padding-left: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+/* content */
+#content {
+    /*background: #f6f6f6 ;*/
+    background: white;
+    border: 2px solid #dedede;
+    padding: 2px;
+}
+
+/* all colum Entities */
+.eqdax-entitiesPanel {
+    width: 286px;
+    border: 1px solid #C4D6E5;
+    display: inline-block;
+    background: white;
+    _overflow: hidden;
+    *zoom: 1;
+    *display: inline;
+}
+
+/* right blocks */
+.eqdax-rightBlocks {
+    display: inline-block;
+    vertical-align: top;
+    _overflow: hidden;
+    *width: 840px;
+    *zoom: 1;
+    *display: inline;
+}
+/* div - results and colums sorting */
+.eqdax-columnsBlock {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.eqdax-LinkColumn {
+    display: inline-block;
+    width: 300px;
+    height: 189px;
+    margin-left: 8px;
+    background: white;
+    border: 1px solid #C1D5E4;
+    font-size: 20px;
+    font-family: 'Conv_segoeuil',Sans-Serif;
+    font-weight: normal;
+    color: #4F4F4F;
+    _overflow: hidden;
+    *zoom: 1;
+    *display: inline;
+}
+/* result column div */
+.eqdax-resultColumn {
+    display: inline-block;
+    width: 467px;
+    height: 189px;
+    margin-left: 16px;
+    background: white;
+    border: 1px solid #C1D5E4;
+    font-size: 20px;
+    font-family: 'Conv_segoeuil',Sans-Serif;
+    font-weight: normal;
+    color: #4F4F4F;
+    _overflow: hidden;
+    *zoom: 1;
+    *display: inline;
+}
+
+/* div - column sorting */
+.eqdax-columnSorting-block {
+    display: inline-block;
+    width: 330px;
+    height: 189px;
+    margin-left: 16px;
+    background: white;
+    border: 1px solid #C1D5E4;
+    _overflow: hidden;
+    *zoom: 1;
+    *display: inline;
+}
+
+/* border -top in result colum */
+.eqdax-topBorder-block {
+    background: #1777B1;
+    height: 6px;
+}
+
+/* border -top in result colum */
+.eqdax-topBorder-orange {
+    background: #FFA500;
+    height: 6px;
+}
+
+.eqdax-topBorder-blue {
+    background: #1777B1;
+    height: 6px;
+}
+/* border -top in result colum */
+.eqdax-topBorder-green {
+    background: #008000;
+    height: 6px;
+}
+
+.eqdax-topBorder-Maroon {
+    background: #9a1d1d;
+    height: 6px;
+}
+
+.eqdax-topBorder-lightgreen {
+    background: #6dc066;
+    height: 6px;
+}
+
+.eqdax-topBorder-hotpink {
+    background: #c41a5e;
+    height: 6px;
+    width: 100%;
+}
+
+
+.eqdax-topBorder-kakhi {
+    background: #f2a400;
+    height: 6px;
+}
+/* top border in entities column */
+.eqdax-entitiesBorder {
+    background: #7BC4F8;
+    height: 6px;
+}
+
+/* content bot - sql and query result */
+.eqdax-resultBlock {
+    padding-top: 20px;
+}
+
+/* sql column div */
+#eqdax-sqlPanel {
+    width: 286px;
+    height: 270px;
+    border: 1px solid #C4D6E5;
+    display: inline-block;
+    background: white;
+    vertical-align: top;
+    _overflow: hidden;
+    *zoom: 1;
+    *display: inline !important;
+}
+
+/* top border Sql panel */
+.eqdax-topBorderSQL {
+    background: #A8ABAD;
+    height: 6px;
+}
+
+/* top border all result */
+.eqdax-topBorderUpdatePanel {
+    background: #237901;
+    height: 6px;
+}
+
+/* language - top */
+.comboLang {
+    text-align: right;
+    font-family: Calibri;
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+/* version text */
+.version {
+    color: #aeaeae;
+    font-size: 11px;
+    font-family: Calibri;
+    padding-left: 70px;
+}
+
+/* margin & padding for ff */
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+/**/
+
+/* new css*/
+.eqdax-resultColumn-title {
+    font: 100 18pt "Segoe UI Light", "Segoe Light", "Segoe UI", Arial, Helvetica, sans-serif;
+    float: left;
+    vertical-align: top;
+    padding: 0 0 0 10px;
+    zoom: 1;
+    *display: block;
+    *position: absolute;
+}
+
+.eqdax-columnSorting-title {
+    font: 100 18pt "Segoe UI Light", "Segoe Light", "Segoe UI", Arial, Helvetica, sans-serif;
+    float: left;
+    padding: 0 0 0 10px;
+    color: #4F4F4F;
+    zoom: 1;
+    *display: block;
+    *position: absolute;
+    width: 100%;
+}
+
+.eqdax-queryConditions-title {
+    font: 100 18pt "Segoe UI Light", "Segoe Light", "Segoe UI", Arial, Helvetica, sans-serif;
+    float: left;
+    padding: 0 0 0 10px;
+    zoom: 1;
+    *display: block;
+    *position: absolute;
+}
+
+.eqdax-entitiesTitle {
+    font: 100 18pt "Segoe UI Light", "Segoe Light", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: #4F4F4F;
+    padding: 0 0 10px 10px;
+    background: #F8F7F7;
+    border-bottom: 1px solid #7BC4F8;
+}
+
+.eqdax-resultPanel-title {
+    font: 100 18pt "Segoe UI Light", "Segoe Light", "Segoe UI", Arial, Helvetica, sans-serif;
+    padding: 4px 0 0 10px;
+    color: #4F4F4F;
+}
+
+.eqdax-sqlTitle {
+    font: 100 18pt "Segoe UI Light", "Segoe Light", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: #4F4F4F;
+    padding: 0 0 8px 10px;
+    background: #F8F7F7;
+    border-bottom: 1px solid #A8ABAD;
+}
+
+.eqdax-conditionsPanel {
+    background: white;
+    height: 194px;
+    margin: 17px 0 0 16px;
+    border: 1px solid #C1D5E4;
+    color: #4F4F4F;
+    width: 818px;
+}
+
+.eqdax-resultPanel-actions {
+    float: right;
+    padding-top: 8px;
+}
+
+.eqdax-resultPanel-updateButton {
+    background-image: url('images/updateResultButton.png');
+    background-color: transparent;
+    background-position: center left;
+    background-repeat: no-repeat;
+    border: none;
+    color: #237901;
+    font: normal 16px Calibri;
+    text-decoration: underline;
+    padding-left: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    zoom: 1;
+    *padding-left: 5px;
+}
+
+.eqdax-resultPanel-exportButton {
+    background-image: url('images/exportResultButton.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center left;
+    border: none;
+    color: #237901;
+    font: normal 16px Calibri;
+    text-decoration: underline;
+    padding-left: 25px;
+    padding-right: 10px;
+    cursor: pointer;
+    zoom: 1;
+    *padding-left: 5px;
+}
+
+.eqdax-updatePanel-bottomBorder {
+    background: #F8F7F7;
+    border-bottom: 1px solid #237901;
+    padding: 0 0 4px 0;
+}
+
+#PanelResult {
+    height: 200px;
+    width: 800px;
+    overflow: auto;
+    margin: 10px 10px 0 10px;
+}
+
+.eqdax-entities-table {
+    padding: 2px 0 0;
+}
+
+    .eqdax-entities-table img {
+        padding: 0 6px 0 0;
+    }
+
+.copyright {
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    font-family: Calibri;
+    color: #000;
+    padding-top: 14px;
+}
+
+    .copyright a {
+        color: #237901 !important;
+    }
+
+/*new name's eqdax style */
+.eqdax-resultColumn-addRow {
+    border-bottom: 1px solid #1777B1;
+    height: 35px;
+}
+
+.eqdax-resultColumn-addRow-lightgreen {
+    border-bottom: 1px solid #6dc066;
+    height: 35px;
+}
+
+.eqdax-resultColumn-addRow-Green {
+    border-bottom: 1px solid #008000;
+    height: 35px;
+}
+
+.eqdax-resultColumn-addRow-Hotpink {
+    border-bottom: 1px solid #c41a5e;
+    height: 35px;
+}
+
+.eqdax-resultColumn-addRow span {
+    float: right;
+    padding: 10px 10px 0 0;
+}
+
+.eqdax-resultColumn-addRow-Maroon {
+    border-bottom: 1px solid #9a1d1d;
+    height: 35px;
+    width: 100%;
+}
+
+.eqdax-resultColumn-addRow span a {
+    padding: 4px 0 4px 27px;
+    padding: 4px 0 6px 27pxurl(0/IE9);
+    background: url('../images/addNew.png') no-repeat center left;
+    font: normal 15px Calibri;
+    color: #1777B1;
+}
+
+.eqdax-columnSorting-addRow {
+    border-bottom: 1px solid #1777B1;
+    height: 35px;
+}
+
+    .eqdax-columnSorting-addRow span {
+        float: right;
+        padding: 10px 10px 0 0;
+    }
+
+        .eqdax-columnSorting-addRow span a {
+            padding: 5px 0 5px 25px;
+            padding: 5px 0 7px 25pxurl(0/IE9);
+            background: url('../images/addNew.png') no-repeat center left;
+            font: normal 15px Calibri;
+            color: #1777B1;
+        }
+
+.eqdax-queryCondition-addRow {
+    border-bottom: 1px solid #1777B1;
+    height: 35px;
+    background: #F8F7F7;
+}
+
+    .eqdax-queryCondition-addRow span {
+        float: right;
+        padding: 10px 10px 0 0;
+    }
+
+        .eqdax-queryCondition-addRow span a {
+            padding: 5px 0 4px 25px;
+            background: url('../images/addNew.png') no-repeat center left;
+            font: normal 15px Calibri;
+            color: #1777B1;
+        }
+
+.eqdax-sqlPanel-block {
+    padding: 7px 10px;
+    width: 270px;
+}
+
+.eqdax-sqlPanel-textBox {
+    resize: none;
+    outline: none;
+    border: none !important;
+    height: 208px !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.eqdax-resultTable {
+    display: inline-block;
+    background: white;
+    margin-left: 16px;
+    border: 1px solid #C1D5E4;
+    width: 818px;
+    height: 270px;
+    _overflow: hidden;
+    *zoom: 1;
+    *display: inline !important;
+}
+/* Strong labels for Client summary*/
+.Stronglabel {
+    font: normal 15px Calibri;
+    font-weight: bold;
+    color: black;
+}
+
+.clientchartmenu {
+    /*border: solid 3px red;*/
+}
+
+span.clientchartmenuoptions {
+    /*border: solid 3px green;*/
+    display: none;
+}
+
+div.clientchartmenu:hover {
+    /*border: solid 3px yellow;*/
+    background-color: #d1d6de;
+}
+
+
+    div.clientchartmenu:hover span.clientchartmenuoptions {
+        /*border: solid 3px blue;*/
+        display: inline;
+    }
+
+.menulink {
+    font: normal 15px Calibri;
+    font-weight: bold;
+    color: black;
+}
+
+ul#css3menu1, ul#css3menu1 ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    background-color: #000;
+    background-image: url("mainbk.png");
+    background-repeat: repeat;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #999999;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+    ul#css3menu1 ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        -moz-box-shadow: 0.7px 0.7px 1px #777777;
+        -webkit-box-shadow: 0.7px 0.7px 1px #777777;
+        box-shadow: 0.7px 0.7px 1px #777777;
+        background-color: #333;
+        background-image: none;
+        border-width: 1px;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-style: solid;
+        border-color: #5A5E60;
+        padding: 0 9px 9px;
+    }
+
+    ul#css3menu1 li:hover > * {
+        display: block;
+    }
+
+    ul#css3menu1 li {
+        position: relative;
+        display: block;
+        white-space: nowrap;
+        font-size: 0;
+        float: left;
+    }
+
+        ul#css3menu1 li:hover {
+            z-index: 1;
+        }
+
+ul#css3menu1 {
+    font-size: 0;
+    z-index: 999;
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    padding: 1px 1px 1px 0;
+    *display: inline;
+}
+
+    * html ul#css3menu1 li a {
+        display: inline-block;
+    }
+
+    ul#css3menu1 > li {
+        margin: 0 0 0 1px;
+    }
+
+    ul#css3menu1 ul > li {
+        margin: 1px 0 0;
+    }
+
+    ul#css3menu1 a:active, ul#css3menu1 a:focus {
+        outline-style: none;
+    }
+
+    ul#css3menu1 a {
+        display: block;
+        vertical-align: middle;
+        text-align: left;
+        text-decoration: none;
+        font: bold 12px Arial;
+        color: #cccccc;
+        cursor: default;
+        padding: 10px;
+        background-color: #333;
+        background-image: url("mainbk.png");
+        background-repeat: repeat;
+        background-position: 0 200px;
+        border-width: 0px;
+        border-style: none;
+        border-color:;
+    }
+
+    ul#css3menu1 ul li {
+        float: none;
+        margin: 9px 0 0;
+    }
+
+    ul#css3menu1 ul a {
+        text-align: left;
+        padding: 8px 0 0 0;
+        background-color: #333;
+        background-image: none;
+        border-width: 1px 0 0 0;
+        border-style: solid;
+        border-color: #262626;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        font: 13px Arial;
+        color: #cccccc;
+        text-decoration: none;
+    }
+
+    ul#css3menu1 li:hover > a, ul#css3menu1 li a.pressed {
+        background-color: #00c4ff;
+        border-style: none;
+        color: #ffffff;
+        background-image: url("mainbk.png");
+        background-position: 0 100px;
+        text-decoration: none;
+    }
+
+    ul#css3menu1 span {
+        display: block;
+        overflow: visible;
+        background-position: right center;
+        background-repeat: no-repeat;
+        padding-right: 0px;
+    }
+
+    ul#css3menu1 ul li:hover > a, ul#css3menu1 ul li a.pressed {
+        background-color: #333;
+        background-image: none;
+        border-style: solid;
+        border-color: #262626;
+        color: #1F80AE;
+        text-decoration: none;
+    }
+
+    ul#css3menu1 li.topfirst > a {
+        border-radius: 4px 0 0 4px;
+        -moz-border-radius: 4px 0 0 4px;
+        -webkit-border-radius: 4px;
+        -webkit-border-top-right-radius: 0;
+        -webkit-border-bottom-right-radius: 0;
+        text-shadow: #000000 0px -1px 1px;
+    }
+
+    ul#css3menu1 li.topfirst:hover > a, ul#css3menu1 li.topfirst a.pressed {
+        text-shadow: #3d3d3d 0px -1px 1px;
+    }
+
+    ul#css3menu1 li.topmenu > a {
+        text-shadow: #000000 0px -1px 1px;
+    }
+
+    ul#css3menu1 li.topmenu:hover > a, ul#css3menu1 li.topmenu a.pressed {
+        text-shadow: #3d3d3d 0px -1px 1px;
+    }
+
+    ul#css3menu1 li.toplast > a {
+        border-radius: 0 4px 4px 0;
+        -moz-border-radius: 0 4px 4px 0;
+        -webkit-border-radius: 0;
+        -webkit-border-top-right-radius: 4px;
+        -webkit-border-bottom-right-radius: 4px;
+        text-shadow: #000000 0px -1px 1px;
+    }
+
+    ul#css3menu1 li.toplast:hover > a, ul#css3menu1 li.toplast a.pressed {
+        text-shadow: #3d3d3d 0px -1px 1px;
+    }
+
+    ul#css3menu1 _ > li > a {
+        padding: 0;
+    }
+
+    ul#css3menu1 li.subfirst > a {
+        border-width: 0;
+        border-style: none;
+        padding: 0;
+    }
+
+    ul#css3menu1 li.subfirst:hover > a, ul#css3menu1 li.subfirst a.pressed {
+        border-style: none;
+    }
+.AnalyticsInput {
+    position: relative;
+    width: 475px;
+}
+
+.AnalyticsInput textarea {
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.AnalyticsInput img {
+    position: absolute;
+    top: 2px;
+    right: 5px
+}

@@ -1,0 +1,2142 @@
+/* base config */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, p, td, th, div {
+    /*font-family: Trebuchet MS, Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;	
+    font-size: 11px;
+    margin:0;
+    padding:0;
+    color: #0A0A0A;*/
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    /* font-size: 11pt; */
+    letter-spacing: 0.02em;
+    line-height: 14pt;
+    font-smooth: always;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-spacing: 0px;
+    border: none;
+}
+
+div {
+    display: block;
+}
+
+img {
+    border: none;
+}
+
+/* load fonts */
+@font-face {
+    font-family: 'Conv_segoeuil';
+    src: url('fonts/segoeuil.eot');
+    src: local('â?º'), url('fonts/segoeuil.ttf') format('truetype'), url('fonts/segoeuil.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/**/
+
+.bodyWrapper {
+    background-color: #fafafb;
+}
+
+.imuWrapper h1 {
+    color: #404040;
+    /* text-transform: uppercase; */
+    font-size: 30px;
+    position: relative;
+}
+
+    .imuWrapper h1:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        background-color: #08b7d1;
+        height: 3px;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        bottom: -20px;
+        max-width: 130px;
+    }
+
+.imuForm {
+    background-color: #fff;
+    min-height: 10px;
+    margin: 70px auto 20px;
+    max-width: 960px;
+    padding: 20px 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.02);
+    border-radius: 10px;
+    position: relative;
+}
+
+.addTopBorder {
+    border-top: 20px solid #fafafb;
+    padding-top: 30px;
+}
+
+.imuForm label {
+    min-height: 40px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 20px;
+}
+
+.imuForm .form-control {
+    padding: 10px 15px;
+    height: auto !important;
+}
+
+.imuForm input.form-control {
+    min-height: 45px;
+}
+
+.imuForm select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    background-image: url(../images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.red {
+    color: #f00;
+    display: contents;
+}
+
+.imuForm textarea {
+    resize: none;
+    min-height: 90px;
+}
+
+.imuForm ul {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+    .imuForm ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px 0 0;
+        padding: 0;
+    }
+/* checkbox */
+.checkboxField {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    .checkboxField input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+.checkmark {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fafafb;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.19);
+}
+
+.checkboxField:hover input ~ .checkmark {
+    border: 1px solid rgba(0,0,0,.5);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkboxField input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkboxField .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 6px;
+    height: 10px;
+    border: solid #404040;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*  acoordion  */
+
+.imuForm .card {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.imuForm .card-body {
+    padding: 1.25rem 0 0;
+}
+
+.imuForm .card-header {
+    padding: 0px;
+    background-color: #1173E429;
+    border-bottom: none;
+    position: relative;
+}
+
+.imuForm .card-header-1 {
+    padding: 0px;
+    background-color: #1173E429;
+    border-bottom: none;
+}
+
+    .imuForm .card-header-1 h2 {
+        width: 100%;
+        text-align: left;
+        color: #404040;
+        font-size: 22px;
+        font-weight: 600;
+        padding: 10px 15px;
+        text-decoration: none;
+    }
+
+.imuForm .card-header h2 button {
+    width: 100%;
+    text-align: left;
+    color: #404040;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px 60px 10px 15px;
+    text-decoration: none;
+    position: relative;
+    z-index: 0;
+}
+
+.btn:active {
+    position: relative;
+    top: 0px !important;
+    left: 0px !important;
+}
+/*  media css  */
+
+@media(max-width:767px) {
+
+    .commonBtn {
+        float: left;
+    }
+}
+
+.imuForm .multiSelect {
+    background-image: none;
+}
+
+.imuForm .chosen-container {
+    width: 100% !important;
+    border: 1px solid #ced4da;
+    min-height: 40px;
+    border-radius: 3px;
+    padding: 3px 5px;
+    background-image: url(../images/plus-icon.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.imuForm .chosen-container-multi .chosen-choices {
+    border: none;
+    box-shadow: none;
+}
+
+    .imuForm .chosen-container-multi .chosen-choices li.search-choice {
+        padding: 5px 30px 5px 10px;
+        border: none;
+        border-radius: 3px;
+        background-color: #eee;
+        background-image: none;
+        box-shadow: none;
+    }
+
+    .imuForm .chosen-container-multi .chosen-choices li.search-field {
+        float: right;
+        opacity: 0;
+    }
+
+        .imuForm .chosen-container-multi .chosen-choices li.search-field input[type=text] {
+            margin-bottom: 0 !important;
+        }
+
+        .imuForm .chosen-container-multi .chosen-choices li.search-field input[type=text] {
+            margin-bottom: 0 !important;
+            border: 0 !important;
+        }
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    position: absolute;
+    top: 6px;
+    right: 3px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url(../images/chosen-sprite.png) -42px 1px no-repeat;
+    font-size: 1px;
+}
+
+.imuForm .chosen-container .chosen-drop {
+    bottom: 100% !important;
+    top: auto !important;
+}
+
+.imuForm .form-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.errorMessage {
+    position: absolute;
+    bottom: -20px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #f00;
+}
+
+.imuForm .commonBtn {
+    background: #404040;
+    color: white !important;
+    border: 0 none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 25px;
+    margin: 0px;
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+}
+
+    .imuForm .commonBtn:hover {
+        background: #08b7d1;
+        color: white;
+    }
+
+.imuForm .btn:focus {
+    box-shadow: none;
+}
+
+.imuForm .blueBtn {
+    background: #08b7d1;
+    color: white !important;
+    border: 0 none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 25px;
+    margin: 0px;
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+}
+
+    .imuForm .blueBtn:hover {
+        background: #404040;
+        color: white;
+    }
+
+.dateIcon {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.clockIcon {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.imuForm p {
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.imuForm .radioFields .form-group {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.imuForm ul.nav-tabs {
+    border-bottom: none;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.imuForm ul li.tabBtn {
+    margin: 0;
+    float: left;
+}
+
+    .imuForm ul li.tabBtn a {
+        margin: 0;
+        background-color: #404040;
+        float: left;
+    }
+
+        .imuForm ul li.tabBtn a.active {
+            background-color: #08b7d1;
+        }
+
+    .imuForm ul li.tabBtn a {
+        padding: 10px 17px;
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+.equalWidth {
+    min-width: 110px;
+}
+/*Error message class*/
+.errorMessage {
+    position: absolute;
+    bottom: -39px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 0, 0,0.66);
+    border-radius: 5px;
+    z-index: 99;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+    .errorMessage i {
+        float: right;
+        font-size: 20px;
+    }
+
+.generalForm {
+    padding: 40px 0px 0px;
+}
+
+.navMenu {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.imuForm .navMenu li {
+    margin: 0;
+}
+
+.navMenu li a {
+    background-color: #ececec;
+    color: #000;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+}
+
+.navMenu li.active a {
+    background-color: #08b7d1;
+    color: #fff;
+}
+
+.imuForm .select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    height: auto;
+    padding: 10px 8px;
+    padding: 8px;
+    position: relative;
+    background-image: url(../images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+    .imuForm .select2-container--default .select2-selection--single .select2-selection__arrow {
+        display: none;
+    }
+
+    .imuForm .select2-container--default .select2-selection--single .select2-selection__rendered {
+        color: #495057;
+        font-weight: normal;
+    }
+
+.emptyCell {
+    margin-top: -2px;
+}
+
+select.form-control[multiple], select.form-control[size] {
+    height: auto;
+    width: 100% !important;
+}
+
+@media (min-width: 767px) {
+    .imuForm .modal-dialog {
+        max-width: 960px;
+    }
+}
+/*   listPage  */
+
+.imList {
+    background-color: #fff;
+    min-height: 10px;
+    margin: 70px auto 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.02);
+    border-radius: 10px;
+    position: relative;
+}
+
+    .imList form.form-inline.form-control {
+        max-width: 250px;
+        float: right;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        border-radius: 50px !important;
+    }
+
+        .imList form.form-inline.form-control input[type="text"] {
+            border: none;
+            padding-right: 25px;
+        }
+
+        .imList form.form-inline.form-control i {
+            position: absolute;
+            right: 10px;
+        }
+
+    .imList table thead tr {
+        background-color: #404040;
+        color: #fff;
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .imList table thead th {
+        vertical-align: bottom;
+        border-bottom: none;
+    }
+
+    .imList table tbody td {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+.editField {
+    color: green;
+}
+
+.deleteField {
+    color: red;
+}
+
+.tbActionBtn a {
+    margin-right: 10px;
+}
+
+    .tbActionBtn a:last-child {
+        margin-right: 0px;
+    }
+
+table.table.subTable {
+    border: 1px solid #eeee;
+    border-top: none;
+}
+
+    table.table.subTable td {
+        border: none;
+    }
+
+.paginationTab {
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+p.refreshText {
+    font-size: 13px;
+    text-align: right;
+    font-weight: normal;
+}
+
+table.subTable thead tr {
+    background-color: #757373;
+    color: #fff;
+}
+
+@media (max-width: 1199px) {
+    .imList {
+        padding: 0;
+        border: 20px solid transparent;
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 767px) {
+    .imList form.form-inline.form-control {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .imuForm {
+        padding: 15px 10px;
+    }
+
+        .imuForm .formSmBtn button {
+            margin: 0 5px;
+        }
+
+    .equalWidth {
+        min-width: 95px;
+    }
+
+    .imuTabbing .nav-fill .nav-item {
+        margin-top: 5px;
+    }
+}
+/*   tabbing css   */
+
+.imuTabbing .nav-tabs {
+    border-bottom: none;
+}
+
+.imuForm .tab-pane {
+    padding: 30px 20px 10px;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+.imuForm .bodyDiagram .tab-pane {
+    padding: 0px;
+    border: none;
+    position: relative;
+}
+
+.imuTabbing .nav-tabs .nav-item.show .nav-link, .imuTabbing .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #08b7d1;
+    border-color: transparent;
+}
+
+.fs-title {
+    color: #000;
+    background-color: #d9e8fb;
+    border-color: transparent;
+    padding: 10px 15px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.imuTabbing .nav-fill .nav-item {
+    padding: 12px 20px;
+    background-color: #ececec;
+    color: #000;
+    margin-right: 5px;
+    font-size: 15px;
+    flex: initial;
+}
+
+    .imuTabbing .nav-fill .nav-item:last-child {
+        margin-right: 0px;
+    }
+
+.imuForm .select2-container {
+    width: 100% !important;
+}
+
+.editFormBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+    .editFormBtn i {
+        color: green;
+    }
+
+/*  Life plan template css  */
+
+.card-header.lptMainCaption h2 {
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 40px 10px 15px;
+    position: relative;
+}
+
+span.addModal {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.meetingHistory thead tr, .sectionTable thead tr {
+    background-color: #818080;
+    color: #fff;
+}
+
+    .meetingHistory thead tr th, .sectionTable thead tr th {
+        border: none;
+        font-size: 14px;
+        vertical-align: middle;
+    }
+
+.meetingHistory tbody tr td, .sectionTable tbody tr td {
+    font-size: 14px;
+    border-top: none;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.meetingHistory tbody tr:nth-child(even), .sectionTable tbody tr:nth-child(even) {
+    background-color: rgba(0,0,0,.02);
+}
+
+.greenColor {
+    color: #28a745 !important;
+    font-size: 25px;
+    box-shadow: none !important;
+    padding: 6px 5px 5px !important;
+}
+
+.redColor {
+    color: #dc3545 !important;
+    font-size: 25px;
+    box-shadow: none !important;
+    padding: 6px 5px 5px !important;
+}
+
+.meetingHistory.table-hover tbody tr:hover, .sectionTable.table-hover tbody tr:hover {
+    background-color: transparent;
+}
+
+h5.modal-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+}
+
+.modal-header .close {
+    color: #fff;
+    opacity: 1;
+}
+
+.modal-header {
+    background-color: #08b7d1;
+    color: #fff;
+}
+
+.accordion .modal-footer, .lptMainCaption .modal-footer {
+    align-items: center;
+    justify-content: center;
+}
+
+.collapseArrow {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+}
+
+.card-header .btn:active {
+    top: 0px;
+    left: 0px;
+}
+
+.btn-link.collapsed i.fa-caret-up {
+    display: none;
+}
+
+.btn-link.collapsed i.fa-caret-down {
+    display: block;
+}
+
+.btn-link i.fa-caret-up {
+    display: block;
+}
+
+.btn-link i.fa-caret-down {
+    display: none;
+}
+
+.imuForm .card-header.addExSpace h2 button {
+    padding: 10px 118px 10px 15px;
+}
+
+.addModal-3 {
+    background-color: rgba(0,0,0,0.2);
+    float: right;
+    color: #fff;
+    padding: 6px 8px;
+    font-size: 13px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+    right: 45px;
+    top: 10px;
+    z-index: 99;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+    .addModal-3 i {
+        margin-right: 7px;
+        background-color: #fff;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        color: #08b7d1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+    }
+
+.addModal-2 {
+    background-color: rgb(6,146,167);
+    float: right;
+    color: #fff;
+    padding: 6px 8px;
+    font-size: 13px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    right: 0;
+    top: 2px;
+    z-index: 99;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+    .addModal-2 i {
+        margin-right: 7px;
+        background-color: #fff;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        color: #08b7d1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+    }
+
+
+.uploadPdfBtn {
+    background-color: #fff;
+    float: right;
+    color: #000;
+    padding: 2px 3px;
+    font-size: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 0;
+    z-index: 99;
+    position: absolute;
+    right: 45px;
+    top: 14px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .uploadPdfBtn input[type="file"] {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 0;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+.printDoc i {
+    margin-right: 2px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 100% !important;
+    }
+
+    .accordion {
+        margin-top: 20px;
+    }
+
+    .imuForm .card-header h2 button {
+        font-size: 15px;
+        padding: 10px 35px 10px 15px;
+    }
+
+    .collapseArrow {
+        top: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sectionTable {
+        min-width: 1180px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .meetingHistory thead, .sectionTable thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    .meetingHistory tr, .sectionTable tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+    }
+
+    .meetingHistory td, .sectionTable td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        text-align: right;
+    }
+
+        .meetingHistory td::before, .sectionTable td::before {
+            content: attr(data-label);
+            float: left;
+        }
+}
+
+.modal .modal-body {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.sectionDescription h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.sectionDescription p {
+    font-size: 15px;
+}
+
+.card-header-2 h2 {
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+.fileControlBtn {
+    border: none;
+}
+
+.card.section6 {
+    margin-bottom: 0;
+}
+
+.pdfImage {
+    width: 34px;
+}
+
+.choosePdf {
+    background-color: #08b7d1;
+    max-width: 170px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 3px;
+}
+
+    .choosePdf input[type="file"] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+
+.imuForm textarea.minHeight {
+    min-height: 210px;
+}
+
+#collapseNine.showing, #collapseTen.showing, #collapseEleven.showing, #collapseSS.showing {
+    display: block;
+}
+
+#divbigBoxes {
+    display: block;
+    position: fixed;
+    z-index: 999999;
+    opacity: 1;
+}
+
+.modal {
+    z-index: 9999;
+}
+
+
+
+/*  master page   */
+/*overflow-x: hidden;
+}*/
+
+table.display.nowrap.cell-border.dataTable.no-footer {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+table#example {
+    border: none;
+}
+
+    table#example thead tr {
+        background-color: #1173E429 !important;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 300 !important;
+        font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+        letter-spacing: 0.2px;
+        font-size: 15px;
+    }
+
+    table#example tbody tr:nth-child(even) {
+        background-color: rgba(0,0,0,0.02);
+    }
+
+    table#example tbody tr td {
+        border: none;
+        font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+        letter-spacing: 0.2px;
+        font-size: 14px;
+    }
+
+.dataTables_wrapper .dataTables_filter input {
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    margin: 0 0 0 5px;
+    font-size: 13px;
+    font-weight: normal !important;
+    color: #404040;
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+}
+
+    .dataTables_wrapper .dataTables_filter input:focus {
+        outline: none;
+        border: 1px solid #eee;
+        box-shadow: none;
+    }
+
+table#example a.btn.btn-primary {
+    background-color: #404040;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.dataTables_wrapper {
+    padding: 15px;
+    overflow: hidden;
+}
+
+#example_length label {
+    font-size: 13px;
+    color: #404040;
+}
+
+.dataTables_length select {
+    border: 1px solid #eee;
+    padding: 4px 5px;
+    border-radius: 3px;
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.nimbus-is-editor .addBtn {
+    margin: 14px 0 0 15px;
+    /*position: absolute;*/
+}
+
+    .nimbus-is-editor .addBtn input {
+        color: #fff;
+        background-color: #08b7d1;
+        pointer-events: all;
+        border: none;
+        font-size: 13px;
+        font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+    }
+
+#example_length {
+    margin-left: 90px;
+}
+
+#example_info {
+    font-size: 13px;
+    color: #404040;
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border: none;
+    background: #08b7d1;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    margin-left: 2px;
+    border: none;
+    font-size: 13px;
+    border-radius: 50%;
+}
+
+.ui-widget {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: .9em !important;
+}
+/*/*body.modal-open{
+    overflow:visible !important;
+}*/
+/*.datepicker {
+    z-index: 99999 !important;
+}*/
+.dataTables_scroll {
+    overflow: auto;
+}
+
+#tblMeetingHistory_length {
+    position: relative;
+    right: 13px;
+    top: 0;
+}
+
+.imuForm #tblMeetingHistory_length label {
+    font-size: 13px;
+}
+
+#tblMeetingHistory_length select {
+    margin: 0 10px;
+    height: auto;
+    min-height: 30px !important;
+}
+
+
+.dataTables_info {
+    font-size: 12px;
+}
+
+.dataTables_length {
+    position: relative !important;
+    right: 0 !important;
+    top: 0 !important;
+}
+
+    .dataTables_length select {
+        margin: 0 10px;
+        height: auto;
+        min-height: 30px !important;
+    }
+
+table.dataTable thead th {
+    background-color: #d9e8fb;
+    color: #000;
+    border-color: #b9d6fa !important;
+}
+
+.backgroundHide {
+    background: none;
+}
+
+.hiddenSection {
+    display: none !important;
+}
+
+.highlight {
+    background-color: yellow;
+}
+/*  audit modal  */
+.auditModal .modal-dialog {
+    max-width: 960px;
+    margin: 1.75rem auto;
+}
+
+.auditModal .modal-header {
+    padding: 8px 15px;
+}
+
+.auditModal .btnRow {
+    margin-bottom: 5px;
+}
+
+    .auditModal .btnRow button {
+        font-size: 14px;
+        padding: 4px 10px;
+        margin-bottom: 5px;
+        background-color: #08b7d1;
+        box-shadow: none;
+    }
+
+.adjutTable {
+    margin-top: 15px;
+}
+
+.prevVersion, .currentVersion {
+    margin-top: 20px;
+}
+
+.meetingHistory thead tr, .sectionTable thead tr {
+    background-color: #d9e8fb !important;
+    color: #000;
+}
+
+.sectionTable tbody tr:nth-child(even) {
+    background-color: rgba(0,0,0,0.02);
+}
+
+.auditModal .modal-footer button {
+    background-color: #08b7d1;
+    color: #fff !important;
+    box-shadow: none;
+}
+
+.auditModal table {
+    border-bottom: 1px solid #eee;
+}
+
+.visibleArea {
+    overflow: hidden !important;
+}
+
+body.modal-open {
+    overflow: visible;
+}
+/*loader css*/
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../images/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+
+/* new css */
+
+#collapseNine.showing, #collapseTen.showing, #collapseEleven.showing, #collapseSS.showing {
+    display: block;
+}
+
+/*   HCA page   */
+
+.imuWrapper.hacForm h1:before {
+    background-color: #d9e8fb;
+}
+
+.hacForm .imuForm .card-header {
+    padding: 0px;
+    background-color: #d9e8fb;
+    border-bottom: none;
+    position: relative;
+}
+
+    .hacForm .imuForm .card-header h2 button {
+        color: #404040;
+    }
+
+.adField, .adField1, .adField2, .adField3 {
+    display: none;
+}
+
+    .adField.show, .adField1.show, .adField2.show, .adField3.show {
+        display: block;
+    }
+
+    .adField h3, .adField1 h3, .adField2 h3, .adField3 h3 {
+        background-color: #d9e8fb;
+        color: #000;
+        padding: 8px 15px;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+.hacForm .sectionTable {
+    min-width: 100%;
+}
+
+.hacForm h5 {
+    font-weight: 600;
+}
+
+.hacForm .hasListing li {
+    width: 49%;
+    margin: 0;
+    padding-left: 20px;
+}
+
+    .hacForm .hasListing li label {
+        min-height: 37px;
+    }
+
+.hacForm .hasListing1 {
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+}
+
+.imuForm .adField1 label {
+    align-items: flex-start;
+}
+
+    .imuForm .adField1 label b {
+        margin-right: 6px;
+    }
+
+    .imuForm .adField1 label.checkboxField {
+        align-items: center;
+    }
+
+.checkmark.cmdDesign {
+    border-radius: 5px;
+}
+
+.hacForm .labelAlign {
+    align-items: flex-start;
+}
+
+    .hacForm .labelAlign b {
+        margin-right: 6px;
+    }
+
+.labelAlign.lineHeightAligh {
+    min-height: inherit;
+}
+
+.imuForm .addSpaceLeft {
+    padding-left: 30px;
+}
+
+.twoCOl th {
+    width: 50%;
+}
+
+input.customFormControl {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    margin-left: 10px;
+    padding: 5px 0px;
+    min-height: inherit;
+}
+
+.imuForm input.form-control.customFormControl {
+    padding: 5px 0px;
+    min-height: inherit;
+}
+
+.clearfix {
+    display: block;
+    width: 100%;
+}
+
+.imuForm .addLeftSpace {
+    padding-left: 35px;
+}
+
+.imuForm .addLeftSpace1 {
+    padding-left: 20px;
+}
+
+.imuForm .addLeftSpace2 {
+    padding-left: 45px;
+}
+
+.imuForm .addLeftSpace3 {
+    padding-left: 55px;
+}
+
+.totalSubstanceScore {
+    background-color: #d9e8fb;
+    line-height: 12px !important;
+    min-height: initial !important;
+    border-radius: 50%;
+    margin-left: 10px;
+    font-weight: 600;
+    width: 37px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.hacForm h5.scroreNumbring {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scoreNumber {
+    background-color: #d9e8fb;
+    line-height: 12px !important;
+    min-height: initial !important;
+    border-radius: 50%;
+    margin-left: 10px;
+    font-weight: 600;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#successfull .modal-header {
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #d9e8fb;
+}
+
+    #successfull .modal-header .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: #000;
+        font-size: 25px;
+    }
+
+#successfull .modal-body h2 {
+    font-size: 30px;
+    margin: 0 0 10px;
+    font-weight: 600;
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+}
+
+#successfull .modal-body p {
+    font-weight: normal;
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+    margin: 30px 0 40px;
+}
+
+.successfullIcon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #7ec833;
+    position: relative;
+    font-size: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .successfullIcon span:before {
+        position: absolute;
+        content: "";
+        width: 8px;
+        height: 18px;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        transform: rotate(45deg);
+        left: 20px;
+        top: 12px;
+    }
+
+.formStatusBar {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 5px 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    z-index: 9999;
+}
+
+    .formStatusBar img {
+        width: 15px;
+        margin-right: 4px;
+    }
+
+#successfull .commonBtn {
+    background: #404040;
+    color: white;
+    border: 0 none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 25px;
+    margin: 0px;
+    font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+    min-width: 90px;
+}
+
+@media(min-width:768px) {
+    #successfull.modal.show .modal-dialog {
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:767px) {
+    .sectionTable.caTable thead {
+        height: auto;
+        margin: 0px;
+        overflow: hidden;
+        position: relative;
+        width: auto;
+    }
+
+    .sectionTable.caTable tr {
+        display: table-row;
+    }
+
+    .sectionTable.caTable td {
+        display: table-cell;
+        text-align: left;
+    }
+
+    .commonBtn.equalWidth {
+        margin-bottom: 10px !important;
+    }
+}
+
+.formStatusBar.bgStart {
+    background-color: #7cb500;
+    color: #fff;
+}
+
+.formStatusBar.bgProgress {
+    background-color: #019fe8;
+    color: #fff;
+}
+
+.formStatusBar.bgInprogress {
+    background-color: #f8b401;
+    color: #fff;
+}
+
+.formStatusBar i.fa {
+    margin-right: 5px;
+}
+
+.doubleHide tr th:nth-child(2), .doubleHide tr th:first-child {
+    display: none;
+}
+
+.doubleHide tr td:nth-child(2), .doubleHide tr td:first-child {
+    display: none;
+}
+
+.singleHide tr th:first-child {
+    display: none;
+}
+
+.singleHide tr td:first-child {
+    display: none;
+}
+
+/*confirm box css*/
+#confirmBox {
+    display: none;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    position: fixed;
+    width: 400px;
+    left: 50%;
+    margin-left: -150px;
+    padding: 6px 8px 8px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+    #confirmBox .button {
+        background-color: #ccc;
+        display: inline-block;
+        border-radius: 3px;
+        border: 1px solid #aaa;
+        padding: 2px;
+        text-align: center;
+        width: 80px;
+        cursor: pointer;
+    }
+
+        #confirmBox .button:hover {
+            background-color: #ddd;
+        }
+
+    #confirmBox .message {
+        text-align: left;
+        margin-bottom: 8px;
+    }
+/* end confirm box css */
+
+#uploadFile {
+    text-align: left;
+    border: none;
+    background-color: white;
+    color: black;
+    width: 600px;
+}
+
+.disable-click {
+    pointer-events: none;
+    color: grey;
+}
+/*   Im Cans   */
+.headerCaption {
+    padding: 0 15px;
+}
+
+.captionBg h3 {
+    padding: 0px;
+    background-color: #d9e8fb;
+    border-bottom: none;
+    position: relative;
+    margin: 10px 0;
+    padding: 10px 15px;
+}
+
+.headerCaption h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+
+.headerCaption h1 {
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+    .headerCaption h1 span {
+        margin: 0 5px;
+        display: inline-block;
+    }
+
+    .headerCaption h1:before {
+        display: none;
+    }
+
+.headerCaption h6 {
+    font-weight: normal;
+}
+
+.rectBox .checkmark {
+    border-radius: 5px;
+}
+
+.actionBtn {
+    border: none;
+    background-color: transparent;
+    margin: 0 4px;
+    font-size: 20px;
+}
+
+    .actionBtn .fa-pencil {
+        color: green;
+    }
+
+    .actionBtn .fa-trash-o {
+        color: red;
+    }
+
+table label.checkboxField {
+    margin-bottom: 0;
+}
+
+.inline {
+    display: inline !important;
+}
+
+.sectionDescription h2 span {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.sectionTable thead tr.lightBg {
+    background-color: #dad7d7;
+    color: #000;
+}
+
+.signatureField {
+    min-height: 90px;
+}
+
+.labelStrong {
+    font-weight: 600;
+}
+
+ul.listing-2 li:nth-child(2n+2) {
+    padding-left: 15px;
+}
+
+.linsing-3 li {
+    width: 33.33%;
+    margin: 0 !important;
+    float: left;
+}
+
+ul.listing-2 li {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+.cansAddBtn {
+    background-color: #08b7d1;
+}
+
+
+
+@media(max-width:767px) {
+    .hacForm .hasListing li {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    ul.listing-2 li {
+        width: 100%;
+    }
+
+        ul.listing-2 li:nth-child(2n+2) {
+            padding-left: 0;
+        }
+
+    .linsing-3 li {
+        width: 100%;
+    }
+}
+/*Treatment plan css*/
+.panel-default > .panel-heading {
+    color: #ffffff;
+    background-color: #313146;
+    border-color: #313146;
+    font-size: 14px;
+}
+
+.panel.template .template {
+    margin-bottom: 18px;
+    background-color: #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.05) !important;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.05) !important;
+}
+
+.goal-template.template {
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin: 0 0 16px 0;
+}
+
+.objective-template.template {
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin: 0 0 12px 0;
+}
+
+.sortable .panel-body, .sortable .panel-body .panel-heading {
+    width: 100% !important;
+}
+
+/* treatmentPlanGoals  */
+.ModalTreatmentPlans .form-group {
+    position: relative;
+}
+
+.ui-datepicker td .ui-state-highlight {
+    background-color: #08b7d1 !important;
+}
+
+.ModalTreatmentPlans .commonBtn, #ModalTreatmentPlanObjective .commonBtn, #ModalTreatmentPlanGoal .commonBtn {
+    background: #404040;
+    color: #fff !important;
+}
+
+    .ModalTreatmentPlans .commonBtn:hover, #ModalTreatmentPlanObjective .commonBtn:hover, #ModalTreatmentPlanGoal .commonBtn:hover {
+        background: #08b7d1;
+        color: #fff !important;
+    }
+
+.ModalTreatmentPlans .form-group .dateIcon {
+    top: 10px;
+}
+
+.treatmentPlanItems {
+    padding: 10px 10px 0;
+}
+
+    .treatmentPlanItems .panel-heading {
+        /*padding: 15px;*/
+        background: linear-gradient(to bottom, #fff, #b9c3b3);
+        color: #404040;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 60px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.08);
+        padding: 0 15px !important;
+    }
+
+.sortable.ui-sortable {
+    border: 1px solid #eee;
+    /*padding: 15px 15px 0;*/
+    margin-bottom: 20px;
+}
+
+.addObjectiveBtn {
+    margin-left: 15px;
+}
+
+.addGoaleBtn {
+    margin-left: 20px !important;
+}
+
+.template .panel-heading, .template .panel-body {
+    padding: 0 15px;
+}
+
+.treatmentPlanGoals .panel-heading a, .treatmentPlanGoals .panel-heading a:hover {
+    color: #08b7d1;
+}
+
+.skylBlueBtn {
+    background-color: #08b7d1 !important;
+    border: none !important;
+}
+
+    .skylBlueBtn:hover {
+        background-color: #404040 !important;
+        border: none !important;
+    }
+
+.wordLimit {
+    padding: 15px;
+}
+
+    .wordLimit .text {
+        display: flex;
+    }
+
+        .wordLimit .text a {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            position: relative;
+            max-height: calc(var(--lh) * var(--max-lines));
+            overflow: hidden;
+            padding-right: 0;
+        }
+
+.panel.panel-default.template {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/*End of treametn plan css*/
+
+/*section 14 cans need command strength*/
+.icbField {
+    max-width: 630px;
+    display: flex;
+}
+
+    .icbField ul {
+        display: flex;
+        margin-left: 30px;
+        align-items: center;
+    }
+
+        .icbField ul label {
+            margin: 0;
+        }
+
+/*mask password font*/
+@font-face {
+    font-family: 'password';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../Assessts/fonts/password.ttf');
+    src: local('â?º'), url('../../Assessts/fonts/password.ttf') format('truetype'), url('fonts/password.svg') format('svg');
+}
+
+.epinPassword {
+    font-family: 'password';
+}
+
+.setNormalZoomPading {
+    padding: 10px 15px !important;
+}
+
+.setMaxZoomPading {
+    padding: 0 15px !important;
+}
+
+/*jsignature css*/
+/* Drawing the 'gripper' for touch-enabled devices */
+html.touch #content {
+    float: left;
+    width: 92%;
+}
+
+html.touch #scrollgrabber {
+    float: right;
+    width: 4%;
+    margin-right: 2%;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAFCAAAAACh79lDAAAAAXNSR0IArs4c6QAAABJJREFUCB1jmMmQxjCT4T/DfwAPLgOXlrt3IwAAAABJRU5ErkJggg==)
+}
+
+html.borderradius #scrollgrabber {
+    border-radius: 1em;
+}
+
+#signatureparent {
+    color: darkblue;
+    background-color: darkgrey;
+    max-width: 800px;
+}
+
+/*This is the div within which the signature canvas is fitted*/
+.ClientSignature {
+    border: 2px dotted black;
+    background-color: lightgrey;
+}
+
+#DivDisable {
+    width: 100% !important;
+}
+
+#ImageWait img {
+    width: 40px;
+    height: auto;
+    margin: -25px 0 0 0;
+}
+
+.modal-content {
+    height: auto !important;
+}
+
+/*New changes for CCO and Lifeplan*/
+.ccoComprehensiveAssessment h1:before {
+    background-color: #d9e8fb;
+}
+
+.ccoComprehensiveAssessment label {
+    font-weight: 600;
+}
+
+.ccoComprehensiveAssessment ul label {
+    font-weight: 400;
+}
+
+.ccoComprehensiveAssessment .hasListing {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+}
+
+    .ccoComprehensiveAssessment .hasListing li {
+        width: 50%;
+        margin-right: 0;
+    }
+
+        .ccoComprehensiveAssessment .hasListing li label, .ccoComprehensiveAssessment .hasListing1 li label {
+            margin-bottom: 0;
+        }
+
+.ccoComprehensiveAssessment .imuForm .form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+@media(max-width:575px) {
+    .ccoComprehensiveAssessment .hasListing li {
+        width: 100%;
+    }
+}
+
+.ccoComprehensiveAssessment .circleSupport ul li {
+    list-style: none;
+}
+
+.ccoComprehensiveAssessment .circleSupport ul label {
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.circleSupport {
+    width: 100%;
+}
+
+
+/*--25 feb--*/
+.mainLayout {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.rowData {
+    margin: 0 0 30px 0;
+    position: relative;
+}
+
+    .rowData .form-group {
+        margin: 0;
+    }
+
+    .rowData label {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .rowData .error {
+        position: absolute;
+        bottom: -21px;
+        font-size: 12px;
+        color: #ff0000;
+        text-transform: capitalize;
+    }
+
+#tblProvider tbody tr.selected:before, #tblProvider tbody tr.selected:after, #tblMeetingHistory tbody tr.selected:before, #tblMeetingHistory tbody tr.selected:after, #tblCircleOfSupport tbody tr.selected:before, #tblCircleOfSupport tbody tr.selected:after {
+    display: none;
+}
+
+.card-header h2 .btn:hover {
+    background-color: transparent;
+}
+
+#tblMeetingHistory.table-hover tbody tr.selected:hover, #tblProvider.table-hover tbody tr.selected:hover, #tblCircleOfSupport.table-hover tbody tr.selected:hover {
+    background-color: #B0BED9 !important;
+}
+
+.backDropLayer #exampleModalCircleSupport {
+    z-index: 99999;
+}
+
+.backDropLayer .modal-backdrop, .imuWrapper .modal {
+    z-index: 9999;
+}
+
+.imuWrapper .modal-header .close {
+    padding: 0.5rem;
+    margin: 0;
+    display: flex;
+    position: relative !important;
+    right: auto;
+    top: 0;
+}
+
+.imuWrapper .modal-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+#exampleModalCircleSupport .modal-dialog {
+    max-width: 778px;
+}
+
+#exampleModalCircleSupport tbody tr td {
+    font-size: 13px;
+}
+
+/*  add New Contact form 26-04-2021 */
+
+#addNewContact .form-group {
+    position: relative;
+}
+
+#addNewContact .hasListing {
+    list-style: none;
+    margin-top: 6px;
+}
+
+    #addNewContact .hasListing li {
+        width: 100%;
+    }
+
+        #addNewContact .hasListing li label {
+            min-height: 40px;
+        }
+
+            #addNewContact .hasListing li label .checkmark {
+                top: 0;
+            }
+
+#addNewContact .form-group .dateIcon {
+    top: 10px;
+}
+
+#addNewContact .form-group select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    background-image: url(../images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}

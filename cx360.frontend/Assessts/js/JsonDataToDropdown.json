@@ -1,0 +1,2412 @@
+[
+    {
+      "CompanyName": "TCC",
+      "Data": [
+        {
+          "SectionII_CCOGoal_ValuedOutcome": [
+            {
+              "Value": "I want to learn money management skills"
+            },
+            {
+              "Value": "I want to be more independent"
+            },
+            {
+              "Value": "I want to learn safety skills"
+            },
+            {
+              "Value": "I want to obtain and/or maintain employment"
+            },
+            {
+              "Value": "I want to be healthy"
+            },
+            {
+              "Value": "I want to improve my social skills"
+            },
+            {
+              "Value": "I want to enjoy my leisure time"
+            },
+            {
+              "Value": "Other"
+            }
+          ],
+          "SectionII_ProviderAssignedGoal": [
+  
+            {
+              "Value": "Other"
+            }
+          ],
+          "SectionIII_Goal_Valued_Outcome": [
+            {
+              "Value": "I need to be supervised while I'm home"
+            },
+            {
+              "Value": "I do not need to be supervised while I'm home"
+            },
+            {
+              "Value": "I need to be supervised while in the community"
+            },
+            {
+              "Value": "I do not need to be supervised while in the community"
+            },
+            {
+              "Value": "I need to be supervised while in unfamiliar locations"
+            },
+            {
+              "Value": "I need to be supervised while in a vehicle"
+            },
+            {
+              "Value": "I need help with personal hygiene"
+            },
+            {
+              "Value": "I need help with activities of daily living"
+            },
+            {
+              "Value": "I need help evacuating in an emergency"
+            },
+            {
+              "Value": "I do not need help evacuating in an emergency"
+            },
+            {
+              "Value": "I need help to stay healthy"
+            },
+            {
+              "Value": "Other"
+            }
+          ],
+          "SectionIII_ProviderAssignedGoal": [
+            {
+              "Value": "Provide Verbal Prompts"
+            },
+            {
+              "Value": "Provider Physical Assistance"
+            },
+            {
+              "Value": "1:1 Supervision/Close Supervision (Total Assistance)"
+            },
+            {
+              "Value": "Line of Sight Supervision (Maximal Assistance)"
+            },
+            {
+              "Value": "Range of Scan Supervision (Extensive Assistance)"
+            },
+            {
+              "Value": "Periodic Checks"
+            },
+            {
+              "Value": "Independent with Staff Present"
+            },
+            {
+              "Value": "Independent"
+            },
+            {
+              "Value": "Alone up to ten Minutes"
+            },
+            {
+              "Value": "Cannot be left alone"
+            },
+            {
+              "Value": "Provide Supervision"
+            },
+            {
+              "Value": "Total Support"
+            },
+            {
+              "Value": "Other"
+            }
+  
+          ]
+        }
+      ]
+  
+    },
+    {
+      "CompanyName": "PCS_ACA",
+      "Data": [
+        {
+          "SectionII_CCOGoal_ValuedOutcome": [
+            {
+              "Value": "To be a contributing member of my household/be more independent with household tasks"
+            },
+            {
+              "Value": "To be healthy"
+            },
+            {
+              "Value": "To be more independent"
+            },
+            {
+              "Value": "To be more independent with my ADL's"
+            },
+            {
+              "Value": "To be more independent with my hygiene"
+            },
+            {
+              "Value": "To be more independent with my medications"
+            },
+            {
+              "Value": "To be more independent with my phone"
+            },
+            {
+              "Value": "To be more independent with using transportation"
+            },
+            {
+              "Value": "To be more involved in community life"
+            },
+            {
+              "Value": "To be more involved in recreational activities"
+            },
+            {
+              "Value": "To be my own guardian"
+            },
+            {
+              "Value": "To be physically active"
+            },
+            {
+              "Value": "To be respected"
+            },
+            {
+              "Value": "To be safe"
+            },
+            {
+              "Value": "To be safe from abuse/neglect"
+            },
+            {
+              "Value": "To be treated fairly"
+            },
+            {
+              "Value": "To change my work situation"
+            },
+            {
+              "Value": "To change service provider"
+            },
+            {
+              "Value": "To change/improve my living situation"
+            },
+            {
+              "Value": "To eat & drink safely"
+            },
+            {
+              "Value": "To eat healthy/have a healthy diet"
+            },
+            {
+              "Value": "To exercise my rights"
+            },
+            {
+              "Value": "To explore available options"
+            },
+            {
+              "Value": "To feel differently"
+            },
+            {
+              "Value": "To feel safe where I live"
+            },
+            {
+              "Value": "To find a member of my family"
+            },
+            {
+              "Value": "To get a driver's license"
+            },
+            {
+              "Value": "To get support to handle changes and loss in my life"
+            },
+            {
+              "Value": "To give back to the community"
+            },
+            {
+              "Value": "To have a back-up in case I lose my job"
+            },
+            {
+              "Value": "To have a boyfriend/girlfriend"
+            },
+            {
+              "Value": "To have a family"
+            },
+            {
+              "Value": "To have a spiritual/religious connection"
+            },
+            {
+              "Value": "To have an active plan for the future"
+            },
+            {
+              "Value": "To have enough food"
+            },
+            {
+              "Value": "To have more friends"
+            },
+            {
+              "Value": "To have more privacy"
+            },
+            {
+              "Value": "To improve my mobility"
+            },
+            {
+              "Value": "To improve my relationship with my family"
+            },
+            {
+              "Value": "To improve the quality of my current relationships"
+            },
+            {
+              "Value": "To improve/maintain my communication skills"
+            },
+            {
+              "Value": "To improve/maintain my money management skills"
+            },
+            {
+              "Value": "To improve/maintain my work skills"
+            },
+            {
+              "Value": "To increase my education"
+            },
+            {
+              "Value": "To increase my knowledge/learning"
+            },
+            {
+              "Value": "To keep my personal possessions safe"
+            },
+            {
+              "Value": "To learn a new language"
+            },
+            {
+              "Value": "To learn how to drive"
+            },
+            {
+              "Value": "To live in a house which is clean and in good repair"
+            },
+            {
+              "Value": "To look differently"
+            },
+            {
+              "Value": "To lose weight"
+            },
+            {
+              "Value": "To obtain and maintain employment"
+            },
+            {
+              "Value": "To organize my belongings and keep them safe"
+            },
+            {
+              "Value": "To own/maintain a vehicle"
+            },
+            {
+              "Value": "To protect my privacy regarding my personal information"
+            },
+            {
+              "Value": "To retire"
+            },
+            {
+              "Value": "To see my friends and family more often"
+            },
+            {
+              "Value": "To self-direct my services by participating in hiring and supervising my support staff with my agency (Employer Authority only)"
+            },
+            {
+              "Value": "To self-direct my services with an individualized budget with a Fiscal Intermediary (Budget Authority and Employer Authority if desired)"
+            },
+            {
+              "Value": "To take a vacation"
+            },
+            {
+              "Value": "To volunteer"
+            },
+            {
+              "Value": "Other"
+            }
+          ],
+          "SectionII_ProviderAssignedGoal": [
+            {
+              "Value": "Assist person to actively develop personal goals"
+            },
+            {
+              "Value": "Assist person to join and participate in a Self-Advocacy group"
+            },
+            {
+              "Value": "Assist person to participate in an exercise program or class"
+            },
+            {
+              "Value": "Assist person to participate in hobby clubs or classes of interest"
+            },
+            {
+              "Value": "Assist to find a job that will pay more money"
+            },
+            {
+              "Value": "Assist to join local recreational groups"
+            },
+            {
+              "Value": "Assist to volunteer in the community"
+            },
+            {
+              "Value": "Assist with joining a dating site"
+            },
+            {
+              "Value": "Choose a Fiscal Intermediary and Broker"
+            },
+            {
+              "Value": "Determine preferences"
+            },
+            {
+              "Value": "Determine Supportive Routines"
+            },
+            {
+              "Value": "Develop a job or work experience(s)"
+            },
+            {
+              "Value": "Develop a plan to live with more supervision"
+            },
+            {
+              "Value": "Develop plan to live with less supervision"
+            },
+            {
+              "Value": "Educate the person on their rights regarding their record and their personal information"
+            },
+            {
+              "Value": "Explore/investigate options for change with the person (e.g. possible room changes, living alone, other living arrangements, etc.)"
+            },
+            {
+              "Value": "Follow preference guidelines"
+            },
+            {
+              "Value": "Follow supportive routine guidelines"
+            },
+            {
+              "Value": "Join Self-Advocacy Group"
+            },
+            {
+              "Value": "Make environment accessible"
+            },
+            {
+              "Value": "Make environment universally designed to me"
+            },
+            {
+              "Value": "Mentor person and their partner"
+            },
+            {
+              "Value": "Monitor and address ongoing work performance"
+            },
+            {
+              "Value": "Provide an assessment of work skills"
+            },
+            {
+              "Value": "Provide an Exercise Program"
+            },
+            {
+              "Value": "Provide assessment of skills and interests"
+            },
+            {
+              "Value": "Provide counseling"
+            },
+            {
+              "Value": "Provide couples counseling"
+            },
+            {
+              "Value": "Provide diet counseling"
+            },
+            {
+              "Value": "Provide for personal care"
+            },
+            {
+              "Value": "Provide more structured recreational activities"
+            },
+            {
+              "Value": "Provide opportunities for relaxation"
+            },
+            {
+              "Value": "Provide protection from financial exploitation"
+            },
+            {
+              "Value": "Provide sexuality counseling"
+            },
+            {
+              "Value": "Provide social and environmental supports"
+            },
+            {
+              "Value": "Provide telemonitoring"
+            },
+            {
+              "Value": "Provide therapy"
+            },
+            {
+              "Value": "Pursue My Hobbies & Interests"
+            },
+            {
+              "Value": "Take actions to learn about self-direction"
+            },
+            {
+              "Value": "Teach communication skills"
+            },
+            {
+              "Value": "Teach dating skills"
+            },
+            {
+              "Value": "Teach eating skills"
+            },
+            {
+              "Value": "Teach evacuation skills"
+            },
+            {
+              "Value": "Teach how to implement backup plan"
+            },
+            {
+              "Value": "Teach organization skills"
+            },
+            {
+              "Value": "Teach person to acquire alternate travel route to improve safety."
+            },
+            {
+              "Value": "Teach person to identify and respond to safety issues (environmental safety concerns, etc.)"
+            },
+            {
+              "Value": "Teach reading skills"
+            },
+            {
+              "Value": "Teach relaxation skills"
+            },
+            {
+              "Value": "Teach rights"
+            },
+            {
+              "Value": "Teach safety skills"
+            },
+            {
+              "Value": "Teach self-medication"
+            },
+            {
+              "Value": "Teach skills for independent living"
+            },
+            {
+              "Value": "Teach social skills"
+            },
+            {
+              "Value": "Teach technology/computer skills"
+            },
+            {
+              "Value": "Teach to call 911"
+            },
+            {
+              "Value": "Teach to make own doctors appointment"
+            },
+            {
+              "Value": "Teach to protect personal possessions"
+            },
+            {
+              "Value": "Teach to speak up"
+            },
+            {
+              "Value": "Teach to take my medicine independently"
+            },
+            {
+              "Value": "Teach transportation skills"
+            },
+            {
+              "Value": "Teach work habits"
+            },
+            {
+              "Value": "Teach work skills"
+            },
+            {
+              "Value": "Teach writing skills"
+            },
+            {
+              "Value": "Other"
+            }
+          ],
+          "SectionIII_Goal_Valued_Outcome": [
+            {
+              "Value": "Provide support during transportation"
+            },
+            {
+              "Value": "Provide support with acid reflux (GERD)"
+            },
+            {
+              "Value": "Provide support with activities of daily living"
+            },
+            {
+              "Value": "Provide support with bathing and showering"
+            },
+            {
+              "Value": "Provide support with being healthy (Diabetes)"
+            },
+            {
+              "Value": "Provide support with being healthy (High Blood Pressure)"
+            },
+            {
+              "Value": "Provide support with being healthy (High Cholesterol)"
+            },
+            {
+              "Value": "Provide support with being healthy (Respiratory Conditions/Concerns)"
+            },
+            {
+              "Value": "Provide support with budgeting/money management"
+            },
+            {
+              "Value": "Provide support with calling for help"
+            },
+            {
+              "Value": "Provide support with cleaning/housekeeping"
+            },
+            {
+              "Value": "Provide support with combing hair"
+            },
+            {
+              "Value": "Provide support with communication"
+            },
+            {
+              "Value": "Provide support with communicating health concerns"
+            },
+            {
+              "Value": "Provide support with doing heavy housework"
+            },
+            {
+              "Value": "Provide support with Dressing/Undressing"
+            },
+            {
+              "Value": "Provide support with eating and drinking safely"
+            },
+            {
+              "Value": "Provide support with evacuating in an emergency"
+            },
+            {
+              "Value": "Provide support with fire safety"
+            },
+            {
+              "Value": "Provide support with following health guidelines"
+            },
+            {
+              "Value": "Provide support with food stability"
+            },
+            {
+              "Value": "Provide support with laundry"
+            },
+            {
+              "Value": "Provide support with making bed"
+            },
+            {
+              "Value": "Provide support with meal planning"
+            },
+            {
+              "Value": "Provide support with meal preparation"
+            },
+            {
+              "Value": "Provide support with medical appointments"
+            },
+            {
+              "Value": "Provide support with mental health"
+            },
+            {
+              "Value": "Provide support with moving safely"
+            },
+            {
+              "Value": "Provide support with nutritional needs"
+            },
+            {
+              "Value": "Provide support with oral health/care"
+            },
+            {
+              "Value": "Provide support with personal hygiene"
+            },
+            {
+              "Value": "Provide support with phone usage"
+            },
+            {
+              "Value": "Provide support with picking out clothes"
+            },
+            {
+              "Value": "Provide support with putting on makeup"
+            },
+            {
+              "Value": "Provide support with setting table"
+            },
+            {
+              "Value": "Provide support with shaving"
+            },
+            {
+              "Value": "Provide support with skin integrity concerns/conditions"
+            },
+            {
+              "Value": "Provide support with taking medications as prescribed"
+            },
+            {
+              "Value": "Provide support with taking my medications"
+            },
+            {
+              "Value": "Provide support with toileting"
+            },
+            {
+              "Value": "Provide support with toileting (Bowel Management)"
+            },
+            {
+              "Value": "Provide support with trimming nails"
+            },
+            {
+              "Value": "Provide support with using money"
+            },
+            {
+              "Value": "Provide support with washing dishes"
+            },
+            {
+              "Value": "Provide support with washing hair"
+            },
+            {
+              "Value": "Provide support with washing hands/face"
+            },
+            {
+              "Value": "Provide support with wiping nose/mouth"
+            },
+            {
+              "Value": "Provide support/education with medication adherence"
+            },
+            {
+              "Value": "Provide the following accomodations for me to feel comfortable and safe"
+            },
+            {
+              "Value": "Provide the following medical supports"
+            },
+            {
+              "Value": "Provide the following safety supports"
+            },
+            {
+              "Value": "Provide the following supervision at program"
+            },
+            {
+              "Value": "Provide the following supervision in the community"
+            },
+            {
+              "Value": "Provide the following supervison at home"
+            },
+            {
+              "Value": "Provide the following supervison during the night"
+            },
+            {
+              "Value": "Provide support with fire evacuation"
+            },
+            {
+              "Value": "Provide support with being healthy (Seizure Disorder)"
+            },
+            {
+              "Value": "Provide support with being healthy"
+            },
+            {
+              "Value": "Other"
+            }
+          ],
+          "SectionIII_ProviderAssignedGoal": [
+            {
+              "Value": "A change in environment"
+            },
+            {
+              "Value": "A new challenge or group to join"
+            },
+            {
+              "Value": "A smoking cessation plan"
+            },
+            {
+              "Value": "Accessible environment"
+            },
+            {
+              "Value": "Accommodate me for my fears"
+            },
+            {
+              "Value": "Accommodations for the hearing impaired"
+            },
+            {
+              "Value": "Accommodations for the visually impaired"
+            },
+            {
+              "Value": "Assist to remain in safe place"
+            },
+            {
+              "Value": "Bowel management"
+            },
+            {
+              "Value": "Cannot call for help without assistance"
+            },
+            {
+              "Value": "Cannot remain in waiting room"
+            },
+            {
+              "Value": "Check for bruising"
+            },
+            {
+              "Value": "Check for pressure sores"
+            },
+            {
+              "Value": "Check that I am not wet or soiled"
+            },
+            {
+              "Value": "Decrease fluids"
+            },
+            {
+              "Value": "DME/POS to alert"
+            },
+            {
+              "Value": "Don't take me to crowded events"
+            },
+            {
+              "Value": "Eat alone"
+            },
+            {
+              "Value": "Eat with my friend(s)"
+            },
+            {
+              "Value": "Encourage Exercise"
+            },
+            {
+              "Value": "Environmental modifications"
+            },
+            {
+              "Value": "Familiar staff or caregiver for assistance"
+            },
+            {
+              "Value": "Follow eating/drinking guidelines"
+            },
+            {
+              "Value": "Follow nutrition guidelines"
+            },
+            {
+              "Value": "Follow occupational therapy guidelines"
+            },
+            {
+              "Value": "Follow physical therapy guidelines"
+            },
+            {
+              "Value": "Follow speech therapy guidelines"
+            },
+            {
+              "Value": "Home Health Care"
+            },
+            {
+              "Value": "I can be left in a vehicle without supervision for up to 10 minutes"
+            },
+            {
+              "Value": "I can never be left in an unattended vehicle"
+            },
+            {
+              "Value": "I cannot go for periods of time without eating"
+            },
+            {
+              "Value": "Implement Blood Glucose Monitoring"
+            },
+            {
+              "Value": "Implement dementia guidelines"
+            },
+            {
+              "Value": "Implement nursing care plan"
+            },
+            {
+              "Value": "Implement toileting plan"
+            },
+            {
+              "Value": "Implement vital signs monitoring"
+            },
+            {
+              "Value": "Increase fluids"
+            },
+            {
+              "Value": "Independent"
+            },
+            {
+              "Value": "Independent w/ staff present"
+            },
+            {
+              "Value": "Independent with DME/POS"
+            },
+            {
+              "Value": "In-home monitoring"
+            },
+            {
+              "Value": "Intensive Behavioral Services"
+            },
+            {
+              "Value": "Line-of-sight"
+            },
+            {
+              "Value": "Mechanical restraints"
+            },
+            {
+              "Value": "Menses management/supports"
+            },
+            {
+              "Value": "Monitor allergies noted"
+            },
+            {
+              "Value": "Needs assistance with implementing back-up plan"
+            },
+            {
+              "Value": "No wait time for appointments (I need to be the first one seen)"
+            },
+            {
+              "Value": "One-to-one"
+            },
+            {
+              "Value": "Only lift with two people or transfer device"
+            },
+            {
+              "Value": "Ostomy care"
+            },
+            {
+              "Value": "Periodic checks"
+            },
+            {
+              "Value": "Practice visit(s)"
+            },
+            {
+              "Value": "Pre-visit discussion"
+            },
+            {
+              "Value": "Private duty nursing"
+            },
+            {
+              "Value": "Provide activities to improve strength and flexibility"
+            },
+            {
+              "Value": "Provide and monitor pain management protocol"
+            },
+            {
+              "Value": "Provide assistance with injections only"
+            },
+            {
+              "Value": "Provide counseling"
+            },
+            {
+              "Value": "Provide extensive assistance"
+            },
+            {
+              "Value": "Provide home infusion therapy"
+            },
+            {
+              "Value": "Provide hospice"
+            },
+            {
+              "Value": "Provide in-home nursing care"
+            },
+            {
+              "Value": "Provide mobility supports"
+            },
+            {
+              "Value": "Provide palliative care"
+            },
+            {
+              "Value": "Provide personal care"
+            },
+            {
+              "Value": "Provide physical assistance"
+            },
+            {
+              "Value": "Provide repositioning"
+            },
+            {
+              "Value": "Provide scheduled reminders"
+            },
+            {
+              "Value": "Provide some assistance"
+            },
+            {
+              "Value": "Provide supervision in unfamiliar places"
+            },
+            {
+              "Value": "Provide supervision while in the bathroom"
+            },
+            {
+              "Value": "Provide telemedicine monitoring"
+            },
+            {
+              "Value": "Provide total assistance"
+            },
+            {
+              "Value": "Provide visual oversight"
+            },
+            {
+              "Value": "Provide wound care"
+            },
+            {
+              "Value": "Range of scan"
+            },
+            {
+              "Value": "Requires catheterization"
+            },
+            {
+              "Value": "Responsible adult present"
+            },
+            {
+              "Value": "Restrictive SCIP-R supports"
+            },
+            {
+              "Value": "Review medications with provider"
+            },
+            {
+              "Value": "Seizure management/supports"
+            },
+            {
+              "Value": "Sit in the front passenger seat of a car or van"
+            },
+            {
+              "Value": "Stay close to me during events"
+            },
+            {
+              "Value": "Training to staff"
+            },
+            {
+              "Value": "Translation services"
+            },
+            {
+              "Value": "Use a lift for transfers"
+            },
+            {
+              "Value": "Use a night monitor"
+            },
+            {
+              "Value": "Use a wheelchair for long distance"
+            },
+            {
+              "Value": "Use headphones with music while I am waiting"
+            },
+            {
+              "Value": "Use of an elevator or first floor accommodations.  Cannot use escalators."
+            },
+            {
+              "Value": "Use wheelchair to exit"
+            },
+            {
+              "Value": "Verbal prompting"
+            },
+            {
+              "Value": "Other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CompanyName": "LPNY",
+      "Data": [
+        {
+          "SectionII_CCOGoal_ValuedOutcome": [
+            {
+              "Value": "To Be More Independent"
+            },
+            {
+              "Value": "To Be More Involved In Community Life"
+            },
+            {
+              "Value": "To Be More Involved In Recreational Activites"
+            },
+            {
+              "Value": "To  Be My Own Guardian"
+            },
+            {
+              "Value": "To Be Respected"
+            },
+            {
+              "Value": "To Be Safe From Abuse & Neglect"
+            },
+            {
+              "Value": "To Be Treated Fairly"
+            },
+            {
+              "Value": "To Change My Work Situation"
+            },
+            {
+              "Value": "To Change Service Provider"
+            },
+            {
+              "Value": "To Exercise My Rights"
+            },
+            {
+              "Value": "To Feel Differently"
+            },
+            {
+              "Value": "To Find A Member Of My Family"
+            },
+            {
+              "Value": "To Get A Driver's License"
+            },
+            {
+              "Value": "To Get A Job In My Community"
+            },
+            {
+              "Value": "To Get Support To Handle Changes and Loss In My Life"
+            },
+            {
+              "Value": "To Give Back To The Community"
+            },
+            {
+              "Value": "To Go To School"
+            },
+            {
+              "Value": "To Have A Back-Up Plan In Case I Lose My Job"
+            },
+            {
+              "Value": "To Have A Boyfriend/Girlfriend"
+            },
+            {
+              "Value": "To Have A Family"
+            },
+            {
+              "Value": "To Have A Spiritual/Religious Connection"
+            },
+            {
+              "Value": "To Have An Active Plan For The Future"
+            },
+            {
+              "Value": "To Have More Friends"
+            },
+            {
+              "Value": "To Have More Privacy"
+            },
+            {
+              "Value": "To have Integrated Work"
+            },
+            {
+              "Value": "To have My Own Room"
+            },
+            {
+              "Value": "To Explore Available Housing"
+            },
+            {
+              "Value": "To Feel Safe Where I Live"
+            },
+            {
+              "Value": "To Live In A Different Neighborhood"
+            },
+            {
+              "Value": "To Live In A Home That Is Accessible"
+            },
+            {
+              "Value": "To Live In A Home That Is Clean/In Good Repair"
+            },
+            {
+              "Value": "To Live Less Independently, I Need More Help"
+            },
+            {
+              "Value": "To Live More Independently in The Community"
+            },
+            {
+              "Value": "To Live With Friends"
+            },
+            {
+              "Value": "To Work Less Hours"
+            },
+            {
+              "Value": "To Improve My Relationship With My Family"
+            },
+            {
+              "Value": "To Improve The Quality Of My Current Relationships"
+            },
+            {
+              "Value": "To Keep My Personal Possessions Safe"
+            },
+            {
+              "Value": "To Learn A New Language"
+            },
+            {
+              "Value": "To Learn More About Self-Direction"
+            },
+            {
+              "Value": "To Learn Work Readiness Skills"
+            },
+            {
+              "Value": "To Look Differently"
+            },
+            {
+              "Value": "To Maintain My Present Work Situation"
+            },
+            {
+              "Value": "To improve/Maintain My Work Skills"
+            },
+            {
+              "Value": "To Organize My Belongings & Keep Them Safe"
+            },
+            {
+              "Value": "To Pursue Work In My Community"
+            },
+            {
+              "Value": "To See My Friends And Family More"
+            },
+            {
+              "Value": "To Self-Direct My Services By Participating In Hiring And Supervising My Support Staff With My Agency (Employer Authority Only)"
+            },
+            {
+              "Value": "To Self-Direct My Services With An Individualized Budget With A Fiscal Intermediary (Budget Authority & Employer Authority if Desired)"
+            },
+            {
+              "Value": "To Take A Vacation"
+            },
+            {
+              "Value": "To Be Safe"
+            },
+            {
+              "Value": "To Earn More Money"
+            },
+            {
+              "Value": "To Explore Available Options"
+            },
+            {
+              "Value": "To Go To A Place That Can Meet My Medical Needs"
+            },
+            {
+              "Value": "To Retire"
+            },
+            {
+              "Value": "To Volunteer"
+            },
+            {
+              "Value": "To Work With People I Know"
+            },
+            {
+              "Value": "To be a contributing member of my household/be more independent with household tasks"
+            },
+            {
+              "Value": "To be healthy"
+            },
+            {
+              "Value": "To be more independent with my ADL's"
+            },
+            {
+              "Value": "To be more independent with my hygiene"
+            },
+            {
+              "Value": "To be more independent with my medications"
+            },
+            {
+              "Value": "To be more independent with my phone"
+            },
+            {
+              "Value": "To eat & drink safely"
+            },
+            {
+              "Value": "To eat healthy/have a healthy diet"
+            },
+            {
+              "Value": "To improve my mobility"
+            },
+            {
+              "Value": "To improve/maintain my money management skills"
+            },
+            {
+              "Value": "To increase my education"
+            },
+            {
+              "Value": "To increase my knowledge/learning"
+            },
+            {
+              "Value": "To lose weight"
+            },
+            {
+              "Value": "To protect my privacy regarding my personal information"
+            },
+            {
+              "Value": "To be more independent with using transportation"
+            },
+            {
+              "Value": "To be physically active"
+            },
+            {
+              "Value": "To change/improve my living situation"
+            },
+            {
+              "Value": "To have enough food"
+            },
+            {
+              "Value": "To improve/maintain my communication skills"
+            },
+            {
+              "Value": "To learn how to drive"
+            },
+            {
+              "Value": "To obtain and maintain employment"
+            },
+            {
+              "Value": "To own/maintain a vehicle"
+            },
+            {
+              "Value": "Other"
+            }
+  
+          ],
+          "SectionII_ProviderAssignedGoal": [
+            {
+              "Value": "Assist Person To Actively Develop Personal Goals"
+            },
+            {
+              "Value": "Assist Person To Find A Job That Will Pay More"
+            },
+            {
+              "Value": "Assist Person To Join And Participate In Self-Advocacy Group"
+            },
+            {
+              "Value": "Assist Person To Participate In An Exercise Program Or Class"
+            },
+            {
+              "Value": "Assist Person To Participate In Hobby, Club Or Class Of Interest"
+            },
+            {
+              "Value": "Assist To Join Local Recreational Group"
+            },
+            {
+              "Value": "Assist To Volunteer In The Community"
+            },
+            {
+              "Value": "Assist With Joining A Dating Site"
+            },
+            {
+              "Value": "Choose An FI & Broker (required)"
+            },
+            {
+              "Value": "Complete Sexuality Assessment"
+            },
+            {
+              "Value": "Determine Preferences"
+            },
+            {
+              "Value": "Determine Supportive Routines"
+            },
+            {
+              "Value": "Develop A Job Or Work Experience"
+            },
+            {
+              "Value": "Develop A Plan To Live With Less Supervision"
+            },
+            {
+              "Value": "Develop A Plan To Live With More Supervision"
+            },
+            {
+              "Value": "Educate A Person On Their Rights In Regards To Their Record And Their Personal Information"
+            },
+            {
+              "Value": "Explore/Investigate Options For Changes With A Person"
+            },
+            {
+              "Value": "Follow Preferences Guidelines"
+            },
+            {
+              "Value": "Follow Supportive Routine Guidelines"
+            },
+            {
+              "Value": "I Would Like To Self-Direct My Services With Agency Support (required)"
+            },
+            {
+              "Value": "Make Environment Accessible"
+            },
+            {
+              "Value": "Make Environment Universally Designed To Me"
+            },
+            {
+              "Value": "Mentor Person And Their Partner"
+            },
+            {
+              "Value": "Monitor & Address Ongiong Work Performance"
+            },
+            {
+              "Value": "Protective Oversight Monitoring Device"
+            },
+            {
+              "Value": "Proved Personal Emergency Response System"
+            },
+            {
+              "Value": "Provide An Assessment Of Work Skills"
+            },
+            {
+              "Value": "Provide Assessmewnt Of Skills & Interests"
+            },
+            {
+              "Value": "Provide Assistive Technology"
+            },
+            {
+              "Value": "Provide Community Hab"
+            },
+            {
+              "Value": "Provide Counseling"
+            },
+            {
+              "Value": "Provide Couples Counseling"
+            },
+            {
+              "Value": "Provide Diet Counseling"
+            },
+            {
+              "Value": "Provide Environmental Modifications"
+            },
+            {
+              "Value": "Provide Family Education & Training"
+            },
+            {
+              "Value": "Provide For Personal Care"
+            },
+            {
+              "Value": "Provide More Structured Recreational Activities"
+            },
+            {
+              "Value": "Provide Opportunities For Relaxation"
+            },
+            {
+              "Value": "Provide Protection From Financial Explotation"
+            },
+            {
+              "Value": "Provide Respite"
+            },
+            {
+              "Value": "Provide Sexuality Counseling"
+            },
+            {
+              "Value": "Provide Social & Environmental Supports"
+            },
+            {
+              "Value": "Provide Telemonitoring"
+            },
+            {
+              "Value": "Provide Therapy"
+            },
+            {
+              "Value": "Take Actions To Learn About Self-Directed (required)"
+            },
+            {
+              "Value": "Teach Dating Skills"
+            },
+            {
+              "Value": "Teach Evacuation Skills"
+            },
+            {
+              "Value": "Teach How To Implement Back-Up Plan"
+            },
+            {
+              "Value": "Teach Person To Acquire Alternative Travel Route To Improve Safety"
+            },
+            {
+              "Value": "Teach Person To Identify & Respond To Safety Issues"
+            },
+            {
+              "Value": "Teach Positive Communication Skills"
+            },
+            {
+              "Value": "Teach Reading Skills"
+            },
+            {
+              "Value": "Teach Self-Medication"
+            },
+            {
+              "Value": "Teach Skills For Independent Living"
+            },
+            {
+              "Value": "Teach Social Skills"
+            },
+            {
+              "Value": "Teach Technology/Computer Skills"
+            },
+            {
+              "Value": "Teach To Call 911"
+            },
+            {
+              "Value": "Teach To Protect Personal Possessions"
+            },
+            {
+              "Value": "Teach To Speak Up"
+            },
+            {
+              "Value": "Teach To Take My Medications Independently"
+            },
+            {
+              "Value": "Teach To Take Public Transportation"
+            },
+            {
+              "Value": "Teach To Use Public Transportation"
+            },
+            {
+              "Value": "Teach Travel Training"
+            },
+            {
+              "Value": "Teach Work Habits"
+            },
+            {
+              "Value": "Teach Work Skills"
+            },
+            {
+              "Value": "Teach Writing Skills"
+            },
+            {
+              "Value": "Other"
+            }
+          ],
+          "SectionIII_Goal_Valued_Outcome": [
+            {
+              "Value": "I need a special consistency diet"
+            },
+            {
+              "Value": "I need help to take my medications"
+            },
+            {
+              "Value": "I need the following accommodations to feel comfortable and safe"
+            },
+            {
+              "Value": "I want a healthy diet"
+            },
+            {
+              "Value": "I want to be healthy"
+            },
+            {
+              "Value": "I want to eat & drink safely"
+            },
+            {
+              "Value": "I want to follow health guidelines"
+            },
+            {
+              "Value": "I want to improve work skills"
+            },
+            {
+              "Value": "I want to learn fire safety"
+            },
+            {
+              "Value": "I want to learn to bath/shower"
+            },
+            {
+              "Value": "I want to learn to budget & pay bills"
+            },
+            {
+              "Value": "I want to learn to clean"
+            },
+            {
+              "Value": "I want to learn to comb my hair"
+            },
+            {
+              "Value": "I want to learn to do housework"
+            },
+            {
+              "Value": "I want to learn to do laundry"
+            },
+            {
+              "Value": "I want to learn to dress/undress"
+            },
+            {
+              "Value": "I want to learn to make a bed"
+            },
+            {
+              "Value": "I want to learn to meal prep"
+            },
+            {
+              "Value": "I want to learn to move safely"
+            },
+            {
+              "Value": "I want to learn to pick out clothes"
+            },
+            {
+              "Value": "I want to learn to put make-up on"
+            },
+            {
+              "Value": "I want to learn to set the table"
+            },
+            {
+              "Value": "I want to learn to shave"
+            },
+            {
+              "Value": "I want to learn to use a phone"
+            },
+            {
+              "Value": "I want to learn to use the phone"
+            },
+            {
+              "Value": "I want to learn to wash my face"
+            },
+            {
+              "Value": "I want to learn to wash my hair"
+            },
+            {
+              "Value": "I want to learn to wash the dishes"
+            },
+            {
+              "Value": "I want to maintain good hand hygiene"
+            },
+            {
+              "Value": "I want to maintain good oral health"
+            },
+            {
+              "Value": "I want to maintain my living space"
+            },
+            {
+              "Value": "I want to take medication as prescribed"
+            },
+            {
+              "Value": "I would like my vision improved"
+            },
+            {
+              "Value": "I would like to communicate better"
+            },
+            {
+              "Value": "I would like to learn how to take my own medications"
+            },
+            {
+              "Value": "Provide assistance when I sneeze, cough, or blow my nose"
+            },
+            {
+              "Value": "Provide assistance with activities of daily living"
+            },
+            {
+              "Value": "Provide assistance with budgeting/paying bills"
+            },
+            {
+              "Value": "Provide assistance with combing hair"
+            },
+            {
+              "Value": "Provide assistance with coordinating and attending medical appointments"
+            },
+            {
+              "Value": "Provide assistance with doing housework"
+            },
+            {
+              "Value": "Provide assistance with laundry"
+            },
+            {
+              "Value": "Provide assistance with making bed"
+            },
+            {
+              "Value": "Provide assistance with picking out clothes"
+            },
+            {
+              "Value": "Provide assistance with putting on make-up"
+            },
+            {
+              "Value": "Provide assistance with setting the table"
+            },
+            {
+              "Value": "Provide assistance with shaving"
+            },
+            {
+              "Value": "Provide assistance with dressing/undressing"
+            },
+            {
+              "Value": "Provide assistance with washing dishes"
+            },
+            {
+              "Value": "Provide assistance with washing hair"
+            },
+            {
+              "Value": "Provide assistance with bathing/showering"
+            },
+            {
+              "Value": "Provide support with acid reflux (GERD)"
+            },
+            {
+              "Value": "Provide support with being healthy (Diabetes)"
+            },
+            {
+              "Value": "Provide support with being healthy (High Blood Pressure)"
+            },
+            {
+              "Value": "Provide support with being healthy (High Cholesterol)"
+            },
+            {
+              "Value": "Provide support with being healthy (Respiratory Conditions/Concerns)"
+            },
+            {
+              "Value": "Provide support with budgeting/money management"
+            },
+            {
+              "Value": "Provide support with calling for help"
+            },
+            {
+              "Value": "Provide support with cleaning/housekeeping"
+            },
+            {
+              "Value": "Provide support with communicating health concerns"
+            },
+            {
+              "Value": "Provide support with eating and drinking safely"
+            },
+            {
+              "Value": "Provide support with fire safety"
+            },
+            {
+              "Value": "Provide support with following health guidelines"
+            },
+            {
+              "Value": "Provide support with food stability"
+            },
+            {
+              "Value": "Provide support with meal planning"
+            },
+            {
+              "Value": "Provide support with meal preparation"
+            },
+            {
+              "Value": "Provide support with medical appointments"
+            },
+            {
+              "Value": "Provide support with moving safely"
+            },
+            {
+              "Value": "Provide support with nutritional needs"
+            },
+            {
+              "Value": "Provide support with oral health/care"
+            },
+            {
+              "Value": "Provide support with personal hygiene"
+            },
+            {
+              "Value": "Provide support with phone usage"
+            },
+            {
+              "Value": "Provide support with skin integrity concerns/conditions"
+            },
+            {
+              "Value": "Provide support with taking medications as prescribed"
+            },
+            {
+              "Value": "Provide support with taking my medications"
+            },
+            {
+              "Value": "Provide support with toileting"
+            },
+            {
+              "Value": "Provide support with toileting (Bowel Management)"
+            },
+            {
+              "Value": "Provide support with trimming nails"
+            },
+            {
+              "Value": "Provide support with washing hands/face"
+            },
+            {
+              "Value": "Provide support with wiping nose/mouth"
+            },
+            {
+              "Value": "Provide support/education with medication adherence"
+            },
+            {
+              "Value": "Provide the following supervision in the community"
+            },
+            {
+              "Value": "Provide the following supervison at home"
+            },
+            {
+              "Value": "Provide the following supervison during the night"
+            },
+            {
+              "Value": "Provide support with fire evacuation"
+            },
+            {
+              "Value": "Provide support with being healthy (Seizure Disorder)"
+            },
+            {
+              "Value": "Provide support with being healthy"
+            },
+            {
+              "Value": "Other"
+            }
+          ],
+          "SectionIII_ProviderAssignedGoal": [
+            {
+              "Value": "1 to 1 at all times"
+            },
+            {
+              "Value": "1 to 1 Supervision"
+            },
+            {
+              "Value": "1 to 1 supervision at night"
+            },
+            {
+              "Value": "A change in environment"
+            },
+            {
+              "Value": "A new challenge or group to join"
+            },
+            {
+              "Value": "A smoking cessation class"
+            },
+            {
+              "Value": "Accessible access"
+            },
+            {
+              "Value": "Accessible environment"
+            },
+            {
+              "Value": "Accommodations for the blind"
+            },
+            {
+              "Value": "Accommodations for the deaf"
+            },
+            {
+              "Value": "An interdisciplinary evaluation"
+            },
+            {
+              "Value": "Assist to remain in safe place"
+            },
+            {
+              "Value": "Bathroom with room for caregiver"
+            },
+            {
+              "Value": "Behavior support plan chart"
+            },
+            {
+              "Value": "Bowel management with charting"
+            },
+            {
+              "Value": "Cannot call for help without assistance"
+            },
+            {
+              "Value": "Cannot remain in waiting room"
+            },
+            {
+              "Value": "Chart menses"
+            },
+            {
+              "Value": "Charting for restrictive SCIP-R"
+            },
+            {
+              "Value": "Check for bruising with charting"
+            },
+            {
+              "Value": "Check that I am not wet/soiled (2hrs w/charting)"
+            },
+            {
+              "Value": "Complete Braden Scale"
+            },
+            {
+              "Value": "Complete check every 15 minutes"
+            },
+            {
+              "Value": "Complete check every 2 hours"
+            },
+            {
+              "Value": "Complete check every 30 minutes"
+            },
+            {
+              "Value": "Complete check twice a night"
+            },
+            {
+              "Value": "Complete checks every hour"
+            },
+            {
+              "Value": "Complete dementia screening"
+            },
+            {
+              "Value": "Complete environmental modification"
+            },
+            {
+              "Value": "Complete fire drills w/charting as required"
+            },
+            {
+              "Value": "Complete hearing assessment"
+            },
+            {
+              "Value": "Complete MORISKY scale"
+            },
+            {
+              "Value": "Complete nutrition evaluation"
+            },
+            {
+              "Value": "Complete self-medication assessment"
+            },
+            {
+              "Value": "Complete sleep study"
+            },
+            {
+              "Value": "Complete speech assessment"
+            },
+            {
+              "Value": "Complete team review"
+            },
+            {
+              "Value": "Complete these checks with charting"
+            },
+            {
+              "Value": "Continuous verbal prompting to exit"
+            },
+            {
+              "Value": "Decrease fluid with charting"
+            },
+            {
+              "Value": "DME/POS to alert: Bed shaker"
+            },
+            {
+              "Value": "DME/POS to alert: Bed shaker/Strobe light"
+            },
+            {
+              "Value": "DME/POS to alert: OTHER"
+            },
+            {
+              "Value": "DME/POS to alert: Strobe light"
+            },
+            {
+              "Value": "Don't take me to crowded events"
+            },
+            {
+              "Value": "Eat alone"
+            },
+            {
+              "Value": "Eat with my friends"
+            },
+            {
+              "Value": "Eat without assistance"
+            },
+            {
+              "Value": "Extensive assistance"
+            },
+            {
+              "Value": "Familiar staff or caregiver for assistance"
+            },
+            {
+              "Value": "Field of vision"
+            },
+            {
+              "Value": "Follow aspiration precautions"
+            },
+            {
+              "Value": "Follow chin tuck guidelines"
+            },
+            {
+              "Value": "Follow choking oversight"
+            },
+            {
+              "Value": "Follow diabetic diet"
+            },
+            {
+              "Value": "Follow eating guidelines"
+            },
+            {
+              "Value": "Follow gluten free diet"
+            },
+            {
+              "Value": "Follow Halal diet"
+            },
+            {
+              "Value": "Follow high calcium diet"
+            },
+            {
+              "Value": "Follow high fiber diet"
+            },
+            {
+              "Value": "Follow Kosher diet"
+            },
+            {
+              "Value": "Follow low calorie diet"
+            },
+            {
+              "Value": "Follow low carb diet"
+            },
+            {
+              "Value": "Follow low cholesterol diet"
+            },
+            {
+              "Value": "Follow low fat diet"
+            },
+            {
+              "Value": "Follow low salt diet"
+            },
+            {
+              "Value": "Follow low sugar diet"
+            },
+            {
+              "Value": "Follow Occupational Therapy guidelines"
+            },
+            {
+              "Value": "Follow Physical Therapy guidelines"
+            },
+            {
+              "Value": "Follow speech guidelines"
+            },
+            {
+              "Value": "Follow Vegan diet"
+            },
+            {
+              "Value": "Follow Vegetarian diet"
+            },
+            {
+              "Value": "Frequent checks (less than 30 min)"
+            },
+            {
+              "Value": "Ground"
+            },
+            {
+              "Value": "Help me to avoid Chocolate"
+            },
+            {
+              "Value": "Help me to avoid eggs"
+            },
+            {
+              "Value": "Help me to avoid fruit"
+            },
+            {
+              "Value": "Help me to avoid milk"
+            },
+            {
+              "Value": "Help me to avoid oats"
+            },
+            {
+              "Value": "Help me to avoid peanuts"
+            },
+            {
+              "Value": "Help me to avoid Shellfish"
+            },
+            {
+              "Value": "Help me to avoid soy"
+            },
+            {
+              "Value": "Help me to avoid wheat"
+            },
+            {
+              "Value": "Honey"
+            },
+            {
+              "Value": "I can be left in vehicle without supervision(up to 10 min)"
+            },
+            {
+              "Value": "I can never be left in an unattended vehicle"
+            },
+            {
+              "Value": "I cannot go for periods of time without eating"
+            },
+            {
+              "Value": "I need my food cut to 1'pieces"
+            },
+            {
+              "Value": "I need my food cut to 1/2'pieces "
+            },
+            {
+              "Value": "I need my food cut to 1/4'pieces "
+            },
+            {
+              "Value": "Implement blood glucose monitoring w/charting"
+            },
+            {
+              "Value": "Implement dementia guidelines"
+            },
+            {
+              "Value": "Implement nursing care plan"
+            },
+            {
+              "Value": "Implement seizure charting"
+            },
+            {
+              "Value": "Implement telemonitoring"
+            },
+            {
+              "Value": "Implement toileting plan with charting"
+            },
+            {
+              "Value": "Implement vital signs monitoring with charting"
+            },
+            {
+              "Value": "In home monitoring"
+            },
+            {
+              "Value": "Increase fluids with charting"
+            },
+            {
+              "Value": "Independent"
+            },
+            {
+              "Value": "Independent with DME/POS: Alert Button"
+            },
+            {
+              "Value": "Independent with DME/POS: OTHER"
+            },
+            {
+              "Value": "Independent with DME/POS: Special phone"
+            },
+            {
+              "Value": "Independent with Staff Present"
+            },
+            {
+              "Value": "Independent without back-up plan"
+            },
+            {
+              "Value": "Independently implements back-up plan"
+            },
+            {
+              "Value": "Intensive behavioral services plan development"
+            },
+            {
+              "Value": "Just do it for me. Thank you"
+            },
+            {
+              "Value": "Just get me started"
+            },
+            {
+              "Value": "Line of Sight Supervision"
+            },
+            {
+              "Value": "Mechanical restraints"
+            },
+            {
+              "Value": "Monitor allergies noted"
+            },
+            {
+              "Value": "Monthly monitoring plan with charting"
+            },
+            {
+              "Value": "Nectar"
+            },
+            {
+              "Value": "Need some assistance"
+            },
+            {
+              "Value": "Need supervision (arm's length)"
+            },
+            {
+              "Value": "Need total assistance"
+            },
+            {
+              "Value": "Needs assistance w/implementing back-up plan"
+            },
+            {
+              "Value": "Night light"
+            },
+            {
+              "Value": "No help"
+            },
+            {
+              "Value": "No wait time for appointments (need to be first one in)"
+            },
+            {
+              "Value": "Occasional checks (30 min or more)"
+            },
+            {
+              "Value": "One verbal prompt from staff to exit"
+            },
+            {
+              "Value": "Only lift with two people on transfer device"
+            },
+            {
+              "Value": "Ostomy care"
+            },
+            {
+              "Value": "OTHER"
+            },
+            {
+              "Value": "Periodic checks"
+            },
+            {
+              "Value": "Periodic checks"
+            },
+            {
+              "Value": "Physical assistance to exit"
+            },
+            {
+              "Value": "Physically remove"
+            },
+            {
+              "Value": "Podiatry services"
+            },
+            {
+              "Value": "Practice visits"
+            },
+            {
+              "Value": "Pre-visit discussion"
+            },
+            {
+              "Value": "Private duty nursing"
+            },
+            {
+              "Value": "Provide & monitor pain management protocol"
+            },
+            {
+              "Value": "Provide 1 on 1 assistance out of my home"
+            },
+            {
+              "Value": "Provide 1 on 1 assistance when I am moving"
+            },
+            {
+              "Value": "Provide activities to improve strength/flexibility"
+            },
+            {
+              "Value": "Provide an assessment of work skills"
+            },
+            {
+              "Value": "Provide assistance w/toileting once a night w/charting"
+            },
+            {
+              "Value": "Provide assistance with injections only"
+            },
+            {
+              "Value": "Provide audiology assessment"
+            },
+            {
+              "Value": "Provide augmentative communication evaluation"
+            },
+            {
+              "Value": "Provide cardiac rehabilitation"
+            },
+            {
+              "Value": "Provide catherization services"
+            },
+            {
+              "Value": "Provide chiropractor services"
+            },
+            {
+              "Value": "Provide communication group"
+            },
+            {
+              "Value": "Provide contact guard"
+            },
+            {
+              "Value": "Provide counseling"
+            },
+            {
+              "Value": "Provide depression screening"
+            },
+            {
+              "Value": "Provide dietary supplement"
+            },
+            {
+              "Value": "Provide Enternal Nutrition"
+            },
+            {
+              "Value": "Provide environmental modification"
+            },
+            {
+              "Value": "Provide functional behavior assessment"
+            },
+            {
+              "Value": "Provide high Calorie diet with charting"
+            },
+            {
+              "Value": "Provide Home Health Care"
+            },
+            {
+              "Value": "Provide home infusion therapy"
+            },
+            {
+              "Value": "Provide hospice"
+            },
+            {
+              "Value": "Provide in home nursing care"
+            },
+            {
+              "Value": "Provide in home nursing services"
+            },
+            {
+              "Value": "Provide inpatient mental health"
+            },
+            {
+              "Value": "Provide inpatient substance abuse"
+            },
+            {
+              "Value": "Provide intensive behavioral services hourly"
+            },
+            {
+              "Value": "Provide Mobility training"
+            },
+            {
+              "Value": "Provide Occupational Therapy"
+            },
+            {
+              "Value": "Provide Overnight staffing"
+            },
+            {
+              "Value": "Provide palliative care"
+            },
+            {
+              "Value": "Provide Parenternal nutrition"
+            },
+            {
+              "Value": "Provide personal care"
+            },
+            {
+              "Value": "Provide physical therapy"
+            },
+            {
+              "Value": "Provide physical therapy evaluation"
+            },
+            {
+              "Value": "Provide positioning every 2 hours w/charting"
+            },
+            {
+              "Value": "Provide psychiatric evaluation"
+            },
+            {
+              "Value": "Provide psychological evaluation"
+            },
+            {
+              "Value": "Provide pulmonary rehabilitation"
+            },
+            {
+              "Value": "Provide range of motion"
+            },
+            {
+              "Value": "Provide respite"
+            },
+            {
+              "Value": "Provide scheduled reminders"
+            },
+            {
+              "Value": "Provide some assistance"
+            },
+            {
+              "Value": "Provide speech therapy"
+            },
+            {
+              "Value": "Provide supervision in unfamiliar places"
+            },
+            {
+              "Value": "Provide supervision while in the bathroom"
+            },
+            {
+              "Value": "Provide support on rough terrain"
+            },
+            {
+              "Value": "Provide telemedicine monitoring"
+            },
+            {
+              "Value": "Provide total assistance"
+            },
+            {
+              "Value": "Provide visual oversight"
+            },
+            {
+              "Value": "Provide wound care"
+            },
+            {
+              "Value": "Pudding"
+            },
+            {
+              "Value": "Pureed"
+            },
+            {
+              "Value": "Range of Scan Supervision"
+            },
+            {
+              "Value": "Regular"
+            },
+            {
+              "Value": "Remember my communication system"
+            },
+            {
+              "Value": "Requires catherization"
+            },
+            {
+              "Value": "Responsible adult present"
+            },
+            {
+              "Value": "Review medication w/psychiatrist as required"
+            },
+            {
+              "Value": "Review medication with pharmacist quarterly"
+            },
+            {
+              "Value": "Sit in front passenger seat of car of van"
+            },
+            {
+              "Value": "Some assistance"
+            },
+            {
+              "Value": "Stay close to me during events"
+            },
+            {
+              "Value": "Stay upright for 30 minutes after eating"
+            },
+            {
+              "Value": "Supervision but no assistance"
+            },
+            {
+              "Value": "Teach ASL"
+            },
+            {
+              "Value": "Teach at home"
+            },
+            {
+              "Value": "Teach at the ICF"
+            },
+            {
+              "Value": "Teach communication"
+            },
+            {
+              "Value": "Teach communication systems"
+            },
+            {
+              "Value": "Teach diabetes self-management training"
+            },
+            {
+              "Value": "Teach during day treatment"
+            },
+            {
+              "Value": "Teach during habilitative service"
+            },
+            {
+              "Value": "Teach eating skills"
+            },
+            {
+              "Value": "Teach relaxation skills"
+            },
+            {
+              "Value": "Teach to make own doctors appointment"
+            },
+            {
+              "Value": "Teach toileting skills"
+            },
+            {
+              "Value": "Teach travel training"
+            },
+            {
+              "Value": "Teach work habits"
+            },
+            {
+              "Value": "Teach work skills"
+            },
+            {
+              "Value": "The following comfort items"
+            },
+            {
+              "Value": "Time out chart"
+            },
+            {
+              "Value": "Train staff how to communicate with member"
+            },
+            {
+              "Value": "Train staff to listen"
+            },
+            {
+              "Value": "Training to staff"
+            },
+            {
+              "Value": "Translation services"
+            },
+            {
+              "Value": "Unlimited"
+            },
+            {
+              "Value": "Up to 1 hour"
+            },
+            {
+              "Value": "Up to 15 minutes"
+            },
+            {
+              "Value": "Up to 4 hours"
+            },
+            {
+              "Value": "Up to 8 hours"
+            },
+            {
+              "Value": "Use a lift for transfer"
+            },
+            {
+              "Value": "Use a night monitor: auditory"
+            },
+            {
+              "Value": "Use a night monitor: drop mat"
+            },
+            {
+              "Value": "Use a night monitor: visual"
+            },
+            {
+              "Value": "Use a wheelchair for long distances"
+            },
+            {
+              "Value": "Use headphones with music while I am waiting"
+            },
+            {
+              "Value": "Use of elevator or 1st floor. Cannot use escalator"
+            },
+            {
+              "Value": "Use wheelchair to exit"
+            },
+            {
+              "Value": "Verbal prompts to move safely"
+            },
+            {
+              "Value": "Verbal reminders to begin"
+            },
+            {
+              "Value": "Other"
+            }
+          ]
+        }
+      ]
+    }
+  ]
